@@ -4,18 +4,27 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
 
-    public static List<Zombie> zombiePossesed;
+    [System.Serializable]
+    public class ConfigClass
+    {
+        public float cooldownPossesion;
+        public float cooldownYell;
 
-    [Range(0f, 5f)]
-    public float cooldownPossesion;
-    static public float cooldownPossesionCode;
+        public float rangeYell;
+    }
+
+    public static List<Zombie> zombiePossesed;
+    public static ConfigClass config;
+
+    public ConfigClass configEditor;
 
     public Zombie player;
 
     private void Awake()
     {
         zombiePossesed = new List<Zombie>();
-        cooldownPossesionCode = cooldownPossesion;
+
+        config = configEditor;
     }
 
     // Use this for initialization
@@ -29,7 +38,6 @@ public class GameManager : MonoBehaviour {
     {
 		
 	}
-
 
     static public void AddZombie(Zombie zombie)
     {
