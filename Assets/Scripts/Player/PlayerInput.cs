@@ -79,7 +79,7 @@ public class PlayerInput : MonoBehaviour {
             }
 
             nearestZombie.TakePossesion();
-            GetComponent<PlayerInput>().enabled = false;
+            GetComponent<Zombie>().LeavePossesion();
         }
     }
 }
