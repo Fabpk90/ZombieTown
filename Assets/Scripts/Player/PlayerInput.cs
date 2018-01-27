@@ -27,8 +27,6 @@ public class PlayerInput : MonoBehaviour {
 
         GetComponent<NavMeshAgent>().destination = transform.position + (movementVec * 2f);
 
-        print(movementVec);
-
         if(Time.time >= (lastTimePossesed + GameManager.config.cooldownPossesion) && Input.GetAxis("ChangeZombie") > 0)
         {
             FindNearestZombie();
@@ -115,12 +113,16 @@ public class PlayerInput : MonoBehaviour {
             float distance;
             foreach(Human h in humanInRangeBite)
             {
-                distance = Vector3.Distance(transform.position, h.transform.position);
-                if (nearestDistance > distance)
+                if(h)
                 {
-                    nearestDistance = distance;
-                    hToContaminate = h;
+                    distance = Vector3.Distance(transform.position, h.transform.position);
+                    if (nearestDistance > distance)
+                    {
+                        nearestDistance = distance;
+                        hToContaminate = h;
+                    }
                 }
+               
             }
 
             humanInRangeBite.Remove(hToContaminate);
