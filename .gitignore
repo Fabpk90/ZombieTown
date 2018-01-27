@@ -34,5 +34,8 @@ sysinfo.txt
 *.unitypackage
 
 fmod_editor\.log
-Assets/FMODStudioCache.asset
-Assets/FMODStudioCache.asset
+Assets/*.meta
+
+Assets/FMOD/zombie_town/Metadata/
+
+Assets/FMOD/zombie_town/Plugins\.meta
