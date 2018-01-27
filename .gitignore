@@ -34,3 +34,8 @@ sysinfo.txt
 *.unitypackage
 
 fmod_editor\.log
+Assets/*.meta
+
+Assets/FMOD/zombie_town/Metadata/
+
+Assets/FMOD/zombie_town/Plugins\.meta
