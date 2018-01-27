@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityStandardAssets.Cameras;
+using UnityStandardAssets.Utility;
 
 public class PlayerInput : MonoBehaviour {
 
@@ -23,7 +25,9 @@ public class PlayerInput : MonoBehaviour {
         movementVec.x = Input.GetAxis("Horizontal");
         movementVec.z = Input.GetAxis("Vertical");
 
-        transform.position += movementVec;
+        GetComponent<NavMeshAgent>().destination = transform.position + (movementVec * 2f);
+
+        print(movementVec);
 
         if(Time.time >= (lastTimePossesed + GameManager.config.cooldownPossesion) && Input.GetAxis("ChangeZombie") > 0)
         {
@@ -88,6 +92,8 @@ public class PlayerInput : MonoBehaviour {
                 }
                
             }
+
+            GameManager.config.Camera.GetComponent<FollowTarget>().target = (nearestZombie.transform);
 
             nearestZombie.TakePossesion();
             GetComponent<Zombie>().LeavePossesion();

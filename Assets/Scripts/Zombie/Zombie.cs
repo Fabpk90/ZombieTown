@@ -44,7 +44,6 @@ public class Zombie : MonoBehaviour {
     public void TakePossesion()
     {
         GetComponent<PlayerInput>().lastTimePossesed = Time.time;
-        GetComponent<NavMeshAgent>().enabled = false;
         GetComponent<PlayerInput>().enabled = true;
 
         GameManager.DeactivateBiteHUD();
@@ -63,8 +62,6 @@ public class Zombie : MonoBehaviour {
 
     public void LeavePossesion()
     {
-
-        GetComponent<NavMeshAgent>().enabled = true;
         GetComponent<PlayerInput>().enabled = false;
         GetComponent<PlayerInput>().humanInRangeBite = new List<Human>();
 
