@@ -360,6 +360,16 @@ Prefab:
       propertyPath: ScoreUI
       value: 
       objectReference: {fileID: 2094582992}
+    - target: {fileID: 114156654020471160, guid: 16d66599eb8dd904cac9716b1c2bb91c,
+        type: 2}
+      propertyPath: configEditor.timeGame
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 114156654020471160, guid: 16d66599eb8dd904cac9716b1c2bb91c,
+        type: 2}
+      propertyPath: configEditor.cooldownRunningAway
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16d66599eb8dd904cac9716b1c2bb91c, type: 2}
   m_IsPrefabParent: 0
@@ -435,11 +445,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114695185214414888, guid: 1c54ad06671518c449da72bda898e7fc,
-        type: 2}
-      propertyPath: rondeObj.ronde.Array.size
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4747496307012600, guid: 1c54ad06671518c449da72bda898e7fc, type: 2}
       propertyPath: m_LocalPosition.x
       value: -6.24
@@ -472,10 +477,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1679596927087566, guid: 1c54ad06671518c449da72bda898e7fc, type: 2}
-      propertyPath: m_Name
-      value: Human (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 114695185214414888, guid: 1c54ad06671518c449da72bda898e7fc,
         type: 2}
       propertyPath: rondeObj.ronde.Array.data[0]
@@ -486,11 +487,10 @@ Prefab:
       propertyPath: rondeObj.ronde.Array.data[1]
       value: 
       objectReference: {fileID: 2053010780}
-    - target: {fileID: 114695185214414888, guid: 1c54ad06671518c449da72bda898e7fc,
-        type: 2}
-      propertyPath: rondeObj.ronde.Array.data[2]
-      value: 
-      objectReference: {fileID: 2053010780}
+    - target: {fileID: 1679596927087566, guid: 1c54ad06671518c449da72bda898e7fc, type: 2}
+      propertyPath: m_Name
+      value: Human (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1c54ad06671518c449da72bda898e7fc, type: 2}
   m_IsPrefabParent: 0
@@ -895,7 +895,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4923810704198184, guid: 5fe49846666c0c34aa5de4ef63c5cf08, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 7.403424
+      value: 3.25
       objectReference: {fileID: 0}
     - target: {fileID: 4923810704198184, guid: 5fe49846666c0c34aa5de4ef63c5cf08, type: 2}
       propertyPath: m_LocalPosition.y
@@ -903,7 +903,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4923810704198184, guid: 5fe49846666c0c34aa5de4ef63c5cf08, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 8.93983
+      value: 14.08
       objectReference: {fileID: 0}
     - target: {fileID: 4923810704198184, guid: 5fe49846666c0c34aa5de4ef63c5cf08, type: 2}
       propertyPath: m_LocalRotation.x

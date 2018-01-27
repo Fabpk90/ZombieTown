@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class Ronde
@@ -35,14 +36,17 @@ public class GameManager : MonoBehaviour {
 
         public float cooldownRonde;
 
+        public float cooldownRunningAway;
+
         public float rangeYell;
         public float rangeBite;
-
 
         public int scoreContaHuman;
         public int scoreContaHumanArme;
 
         public int scoreMulti = 1;
+
+        public float timeGame;
 
         public GameObject biteHUD;
         public GameObject Camera;
@@ -59,6 +63,10 @@ public class GameManager : MonoBehaviour {
 
     public TextMeshProUGUI ScoreUI;
 
+    private float timeElapsed = 0f;
+
+    public static bool isDead = false;
+
     private void Awake()
     {
         zombiePossesed = new List<Zombie>();
@@ -69,14 +77,24 @@ public class GameManager : MonoBehaviour {
     // Use this for initialization
     void Start ()
     {
-        zombiePossesed.Add(player);
+        if (player != null)
+            zombiePossesed.Add(player);
 	}
 
     private void Update()
     {
         ScoreUI.text = "Score: " + Score;
-    }
 
+        timeElapsed += Time.deltaTime;
+
+        //time out
+        if (timeElapsed >= config.timeGame && !isDead)
+        {
+            isDead = true;
+            SceneManager.LoadScene("DeathScene");
+        }
+            
+    }
 
     static public void AddZombie(Zombie zombie)
     {
