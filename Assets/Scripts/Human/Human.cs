@@ -58,9 +58,9 @@ public class Human : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.GetComponent<Zombie>())
+        //print(other.gameObject.GetComponent<Zombie>());
+        if(other.gameObject.GetComponent<Zombie>())
         {
-            print(other.GetComponent<Zombie>().transform.name);
             timeLastEscape = Time.time;
             zombieToEscapeFrom = other.GetComponent<Zombie>();
         }

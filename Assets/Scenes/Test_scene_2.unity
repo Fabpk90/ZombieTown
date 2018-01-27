@@ -112,7 +112,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 34789f82fec20354c9d26f889f12ebf0, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 668b2562d17b7ce44802f01012a43303, type: 2}
 --- !u!1001 &179991
 Prefab:
   m_ObjectHideFlags: 0
@@ -5748,6 +5748,11 @@ Prefab:
         type: 2}
       propertyPath: configEditor.timeGame
       value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 114156654020471160, guid: 16d66599eb8dd904cac9716b1c2bb91c,
+        type: 2}
+      propertyPath: configEditor.cooldownRunningAway
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16d66599eb8dd904cac9716b1c2bb91c, type: 2}
