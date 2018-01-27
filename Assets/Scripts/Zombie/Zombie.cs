@@ -50,11 +50,11 @@ public class Zombie : MonoBehaviour {
 
        // GetComponent<PlayerInput>().SearchForHumanInRange();
 
-        Color c = GetComponent<MeshRenderer>().material.color;
+        Color c = GetComponent<SkinnedMeshRenderer>().material.color;
         c.g = 0;
         c.b = 0;
 
-        GetComponent<MeshRenderer>().material.color = c;
+        GetComponent<SkinnedMeshRenderer>().material.color = c;
     }
 
     public void LeavePossesion()
@@ -64,10 +64,10 @@ public class Zombie : MonoBehaviour {
 
         DestroyObject(gameObject.GetComponent<SphereCollider>());
 
-        Color c = GetComponent<MeshRenderer>().material.color;
+        Color c = GetComponent<SkinnedMeshRenderer>().material.color;
         c.g = 1;
         c.b = 1;
 
-        GetComponent<MeshRenderer>().material.color = c;
+        GetComponent<SkinnedMeshRenderer>().material.color = c;
     }
 }

@@ -25,6 +25,8 @@ public class PlayerInput : MonoBehaviour {
         movementVec.x = Input.GetAxis("Horizontal");
         movementVec.z = Input.GetAxis("Vertical");
 
+        print(movementVec);
+
         transform.parent.GetComponent<NavMeshAgent>().destination = transform.position + (movementVec * 2f);
 
         if(Time.time >= (lastTimePossesed + GameManager.config.cooldownPossesion) && Input.GetAxis("ChangeZombie") > 0)
