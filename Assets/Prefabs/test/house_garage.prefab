@@ -104,7 +104,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4072378138795514}
-  - component: {fileID: 208154086609376138}
   m_Layer: 0
   m_Name: house_garage
   m_TagString: Untagged
@@ -545,21 +544,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1556346134523082}
   m_Mesh: {fileID: 4300000, guid: 32c71bb0d88d8b942bbcf9c7be7cec46, type: 3}
---- !u!208 &208154086609376138
-NavMeshObstacle:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1431264208126906}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 1
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!208 &208514946111542022
 NavMeshObstacle:
   m_ObjectHideFlags: 1
