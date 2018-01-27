@@ -6164,10 +6164,6 @@ Prefab:
       propertyPath: m_Name
       value: garden_house (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4746969919546794, guid: 260be734a31bb6f4ea702c2f357b3f4e, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 260be734a31bb6f4ea702c2f357b3f4e, type: 2}
   m_IsPrefabParent: 0
