@@ -34,12 +34,17 @@ namespace Assets.Scripts.Human
 
         private void OnTriggerEnter(Collider other)
         {
-            //print(other.gameObject.GetComponent<Zombie>());
-            if (other.gameObject.GetComponent<Zombie>())
+            if(!other.isTrigger)
             {
-                timeLastEscape = Time.time;
-                zombieToEscapeFrom = other.GetComponent<Zombie>();
+                print(other.gameObject.GetComponent<Zombie>());
+                if (other.gameObject.GetComponent<Zombie>())
+                {
+                    timeLastEscape = Time.time;
+                    zombieToEscapeFrom = other.GetComponent<Zombie>();
+                }
             }
+
+            
         }
     }
 }

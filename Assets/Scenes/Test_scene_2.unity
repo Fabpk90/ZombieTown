@@ -3881,6 +3881,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1106875127611006, guid: 095c44f6daf8fb9498a56b3b3a2a5d17, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 095c44f6daf8fb9498a56b3b3a2a5d17, type: 2}
   m_IsPrefabParent: 0
@@ -4061,6 +4065,10 @@ Prefab:
     - target: {fileID: 4335859747252986, guid: 769269af82b801441b1408db9218c858, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1106875127611006, guid: 769269af82b801441b1408db9218c858, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 769269af82b801441b1408db9218c858, type: 2}
@@ -10738,7 +10746,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4309113196496322, guid: e9db3f7c8745d3648a972833324233cc, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.6290092
+      value: 0.78
       objectReference: {fileID: 0}
     - target: {fileID: 4309113196496322, guid: e9db3f7c8745d3648a972833324233cc, type: 2}
       propertyPath: m_LocalPosition.y
@@ -10771,6 +10779,21 @@ Prefab:
     - target: {fileID: 195616900842319042, guid: e9db3f7c8745d3648a972833324233cc,
         type: 2}
       propertyPath: m_StoppingDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 136355242099273478, guid: e9db3f7c8745d3648a972833324233cc,
+        type: 2}
+      propertyPath: m_Center.z
+      value: 2.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 136355242099273478, guid: e9db3f7c8745d3648a972833324233cc,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 2.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 136678076547299560, guid: e9db3f7c8745d3648a972833324233cc,
+        type: 2}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
