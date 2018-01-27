@@ -360,6 +360,11 @@ Prefab:
       propertyPath: ScoreUI
       value: 
       objectReference: {fileID: 2094582992}
+    - target: {fileID: 114156654020471160, guid: 16d66599eb8dd904cac9716b1c2bb91c,
+        type: 2}
+      propertyPath: configEditor.timeGame
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16d66599eb8dd904cac9716b1c2bb91c, type: 2}
   m_IsPrefabParent: 0
