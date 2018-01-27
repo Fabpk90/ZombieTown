@@ -13,7 +13,7 @@ public class PlayerInput : MonoBehaviour {
     public float lastTimeYell = 0f;
     public float lastTimeContaminated = 0f;
 
-    public List<Human> humanInRangeBite = new List<Human>();
+    public List<HumanBehaviour> humanInRangeBite = new List<HumanBehaviour>();
 
 	// Use this for initialization
 	void Start () {
@@ -25,7 +25,9 @@ public class PlayerInput : MonoBehaviour {
         movementVec.x = Input.GetAxis("Horizontal");
         movementVec.z = Input.GetAxis("Vertical");
 
-        GetComponent<NavMeshAgent>().destination = transform.position + (movementVec * 2f);
+        print(movementVec);
+
+        transform.parent.GetComponent<NavMeshAgent>().destination = transform.position + (movementVec * 2f);
 
         if(Time.time >= (lastTimePossesed + GameManager.config.cooldownPossesion) && Input.GetAxis("ChangeZombie") > 0)
         {
@@ -55,7 +57,7 @@ public class PlayerInput : MonoBehaviour {
                 //not calling himself
                 if(z != GetComponent<Zombie>())
                 {
-                    z.GetComponent<NavMeshAgent>().destination = transform.position;
+                    z.transform.parent.GetComponent<NavMeshAgent>().destination = transform.position;
                 }
                 
             }
@@ -108,10 +110,10 @@ public class PlayerInput : MonoBehaviour {
         if(humanInRangeBite.Count >= 1)
         {
             float nearestDistance = 10000f;
-            Human hToContaminate = null;
+            HumanBehaviour hToContaminate = null;
 
             float distance;
-            foreach(Human h in humanInRangeBite)
+            foreach(HumanBehaviour h in humanInRangeBite)
             {
                 if(h)
                 {
@@ -140,10 +142,10 @@ public class PlayerInput : MonoBehaviour {
     public void SearchForHumanInRange()
     {
         RaycastHit[] hits = Physics.SphereCastAll(transform.position, GameManager.config.rangeBite, transform.position);
-        Human h = null;
+        HumanBehaviour h = null;
         foreach (RaycastHit ray in hits)
         {
-            h = ray.collider.GetComponent<Human>();
+            h = ray.collider.GetComponent<HumanBehaviour>();
             if (h)
             {
                 humanInRangeBite.Add(h);
@@ -154,10 +156,12 @@ public class PlayerInput : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<Human>())
+        print(other.gameObject);
+
+        if (other.GetComponent<HumanBehaviour>())
         {
             GameManager.ActivateBiteHUD();
-            humanInRangeBite.Add(other.GetComponent<Human>());
+            humanInRangeBite.Add(other.GetComponent<HumanBehaviour>());
         }
         else if (humanInRangeBite.Count == 0)
             GameManager.DeactivateBiteHUD();
@@ -165,9 +169,9 @@ public class PlayerInput : MonoBehaviour {
 
     private void OnTriggerExit(Collider other)
     {
-        if(other.GetComponent<Human>())
+        if(other.GetComponent<HumanBehaviour>())
         {
-            humanInRangeBite.Remove(other.GetComponent<Human>());
+            humanInRangeBite.Remove(other.GetComponent<HumanBehaviour>());
 
             if (humanInRangeBite.Count == 0)
                 GameManager.DeactivateBiteHUD();
