@@ -39,10 +39,11 @@ public class Human : MonoBehaviour {
 
     public void Contaminate()
     {
+        GameManager.Score += GameManager.config.scoreContaHuman * GameManager.config.scoreMulti;
+
         gameObject.AddComponent<PlayerInput>().enabled = false;
 
         gameObject.AddComponent<Zombie>();
-
         gameObject.GetComponent<Zombie>().rondeObj = rondeObj;
 
         Destroy(gameObject.GetComponent<Human>());
