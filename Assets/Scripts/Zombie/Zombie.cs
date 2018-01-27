@@ -5,9 +5,10 @@ using UnityEngine.AI;
 
 [RequireComponent(typeof(PlayerInput))]
 public class Zombie : MonoBehaviour {
+    public Ronde rondeObj;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         if (transform.tag != "Player")
             GameManager.AddZombie(this);
         else
@@ -16,8 +17,29 @@ public class Zombie : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        if(!GetComponent<PlayerInput>().enabled)
+        {
+            if (!GetComponent<NavMeshAgent>().pathPending)
+            {
+                if (GetComponent<NavMeshAgent>().remainingDistance <= GetComponent<NavMeshAgent>().stoppingDistance)
+                {
+                    if (!GetComponent<NavMeshAgent>().hasPath || GetComponent<NavMeshAgent>().velocity.sqrMagnitude == 0f)
+                    {
+                        rondeObj.timeSinceLastRonde += Time.deltaTime;
+
+                        if (rondeObj.timeSinceLastRonde >= GameManager.config.cooldownRonde)
+                        {
+                            rondeObj.timeSinceLastRonde = 0f;
+                            Vector3 v = rondeObj.nextPointRonde();
+                            if (v != Vector3.zero)
+                                GetComponent<NavMeshAgent>().destination = v;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
 
     public void TakePossesion()
     {
@@ -25,13 +47,12 @@ public class Zombie : MonoBehaviour {
         GetComponent<NavMeshAgent>().enabled = false;
         GetComponent<PlayerInput>().enabled = true;
 
+        GameManager.DeactivateBiteHUD();
+
         gameObject.AddComponent<SphereCollider>().radius = GameManager.config.rangeBite;
         GetComponent<SphereCollider>().isTrigger = true;
 
-        GameManager.DeactivateBiteHUD();
-
        // GetComponent<PlayerInput>().SearchForHumanInRange();
-
 
         Color c = GetComponent<MeshRenderer>().material.color;
         c.g = 0;
