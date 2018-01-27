@@ -11,10 +11,10 @@ FBXHeaderExtension:  {
 		Year: 2018
 		Month: 1
 		Day: 27
-		Hour: 13
-		Minute: 6
-		Second: 0
-		Millisecond: 517
+		Hour: 16
+		Minute: 42
+		Second: 43
+		Millisecond: 723
 	}
 	Creator: "FBX SDK/FBX Plugins version 2015.0"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -36,13 +36,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "2015"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "27/01/2018 12:06:00.517"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "27/01/2018 15:42:43.723"
 			P: "Original|FileName", "KString", "", "", "D:/Dev/GGJ 2018/Ressources/Maya/ZombieTown/assets/SK_Redneck.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2015"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "27/01/2018 12:06:00.517"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "27/01/2018 15:42:43.723"
 		}
 	}
 }
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1040428848, "", "Scene" {
+	Document: 1667336880, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -274,7 +274,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1022680080, "Geometry::", "Mesh" {
+	Geometry: 1282481840, "Geometry::", "Mesh" {
 		Vertices: *10035 {
 			a: -0.081102728843689,0.0176235008984804,-0.0796889662742615,-0.0822010040283203,0.0103468680754304,-0.0652790814638138,-0.0753935575485229,0.0337585061788559,-0.0621737502515316,-0.0788581371307373,0.0371620655059814,-0.0810016319155693,-0.0896662473678589,0.0351978614926338,-0.0976593494415283,-0.0929387807846069,0.0137690138071775,-0.0905147939920425,-0.100433111190796,0.00389228272251785,-0.0696334168314934,-0.135199189186096,0.00965074542909861,0.183191195130348,-0.134157538414001,0.0211049932986498,0.186678722500801,-0.122622489929199,0.0246745180338621,0.172114089131355,-0.126070380210876,0.00988833978772163,0.170273751020432,-0.139388084411621,0.00283175427466631,0.16588993370533,-0.148956179618835,0.00730937859043479,0.181010544300079,-0.15242874622345,0.0203193332999945,0.186863765120506,-0.172861933708191,0.0630866587162018,0.0101331099867821,-0.187313795089722,0.049948588013649,0.0488973557949066,-0.189994096755981,0.0280151385813951,0.0447729974985123,-0.178175926208496,0.0345537476241589,0.0106382947415113,-0.168392896652222,0.0340604931116104,-0.0191626790910959,-0.165779948234558,0.0587921179831028,-0.019997613504529,-0.16071093082428,0.0833760499954224,-0.0271075386554003,-0.161135315895081,0.0912524461746216,-0.0123123060911894,-0.15771496295929,0.0998868644237518,0.00343113881535828,-0.168724894523621,0.0802662521600723,0.0279960632324219,-0.17854118347168,0.0654385387897491,0.0592726059257984,-0.0930805206298828,0.0844404399394989,0.0052223913371563,-0.0850893259048462,0.0856174156069756,-0.020172281190753,-0.0829819440841675,0.0570426546037197,-0.0197464656084776,-0.0874834060668945,0.0534597001969814,0.00574214942753315,-0.0923044681549072,0.121906891465187,-0.0123639637604356,-0.0847076177597046,0.118358597159386,-0.0250490494072437,-0.095770001411438,0.0648647025227547,0.0392123013734818,-0.104736566543579,0.0792311877012253,0.0457270331680775,-0.102728493511677,0.0977336838841438,0.0161859039217234,-0.0911315679550171,0.0435934327542782,0.0334148891270161,-0.103096008300781,0.127229571342468,-0.0018653308507055,
 -0.138309955596924,0.0321718268096447,0.180605039000511,-0.130854725837708,0.0370134934782982,0.169910326600075,-0.149297952651978,0.0346261598169804,0.179165810346603,-0.142989158630371,0.0430214665830135,0.166334509849548,-0.171040296554565,-0.00155414373148233,0.132454246282578,-0.159333944320679,-0.0019270881311968,0.137474596500397,-0.154208779335022,-0.00136767129879445,0.116430178284645,-0.172235369682312,-0.00104522332549095,0.114980988204479,-0.181722402572632,-5.10169011249673e-005,0.138584479689598,-0.16894268989563,-0.000685813836753368,0.152330413460732,-0.190075278282166,0.0024033160880208,0.115901961922646,-0.12693190574646,0.0156799107789993,-0.100076243281364,-0.137205958366394,0.00880287494510412,-0.0860991254448891,-0.119418382644653,0.00341027649119496,-0.0763848125934601,-0.111005902290344,0.0129456100985408,-0.0981831178069115,-0.108587861061096,0.034857090562582,-0.10690263658762,-0.13083803653717,0.035480223596096,-0.104583837091923,-0.147589921951294,0.0322123244404793,-0.0885058492422104,-0.166213274002075,0.0470093861222267,0.157192572951317,-0.169256210327148,0.0529392212629318,0.144161552190781,-0.152374386787415,0.054118026047945,0.145631715655327,-0.155840516090393,0.0462439730763435,0.161797001957893,-0.161774754524231,0.0356724746525288,0.174183711409569,-0.17412531375885,0.0396804288029671,0.162984803318977,-0.184720158576965,0.0443597845733166,0.146339267492294,-0.0836650133132935,0.158541604876518,-0.0446960665285587,-0.0848662853240967,0.157891452312469,-0.058113805949688,-0.0831769704818726,0.11734726279974,-0.0565631315112114,-0.0812952518463135,0.117123633623123,-0.0409388616681099,-0.0868334770202637,0.159996211528778,-0.0316857174038887,-0.0808272361755371,0.0861592367291451,-0.0571045242249966,-0.0805823802947998,0.0850321874022484,-0.0394989177584648,-0.0783394575119019,0.0594687685370445,-0.0597691871225834,-0.0795509815216064,0.0579922460019588,-0.0406156815588474,-0.0768946409225464,0.0317471362650394,-0.0417091734707356,-0.0808478593826294,0.0302562415599823,-0.0201916340738535,
@@ -677,184 +677,184 @@ Objects:  {
 			}
 		}
 	}
-	NodeAttribute: 1085425024, "NodeAttribute::", "Null" {
+	NodeAttribute: 1691379088, "NodeAttribute::", "Null" {
 		TypeFlags: "Null"
 	}
-	NodeAttribute: 1040707696, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047527840, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040708080, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047515168, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040710000, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047508640, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040708272, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047500768, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040707888, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047503456, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040709808, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047538976, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040708848, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047477152, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040708464, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047503072, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040709040, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047517088, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040709424, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047538208, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040709232, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047522464, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040752432, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047476960, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040739376, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047509024, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040725552, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047504032, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040741104, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047521504, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040724976, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047504800, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",0.333333333333333
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040739184, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047519200, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",0.333333333333333
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040738800, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047534560, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",0.333333333333333
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040748976, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047513248, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",0.333333333333333
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040724592, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047492704, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040739952, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047539360, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040728432, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047522848, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040738416, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047536480, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040694832, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047532064, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",0.333333333333333
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040737264, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047516704, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",0.333333333333333
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040738608, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047522080, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",0.333333333333333
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040740528, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047518240, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",0.333333333333333
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040737840, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047483104, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	NodeAttribute: 1040729392, "NodeAttribute::", "LimbNode" {
+	NodeAttribute: 1047528416, "NodeAttribute::", "LimbNode" {
 		Properties70:  {
 			P: "Size", "double", "Number", "",1
 		}
 		TypeFlags: "Skeleton"
 	}
-	Model: 1019301120, "Model::Redneck", "Mesh" {
+	Model: 1019291840, "Model::Redneck", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -868,7 +868,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 1019291840, "Model::Redneck1_Reference", "Null" {
+	Model: 1019280240, "Model::Human_Reference", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -879,7 +879,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 1019277920, "Model::Redneck1_Hips", "LimbNode" {
+	Model: 1019303440, "Model::Human_Hips", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -892,7 +892,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 1019284880, "Model::Redneck1_LeftUpLeg", "LimbNode" {
+	Model: 1019247472, "Model::Human_LeftUpLeg", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -907,7 +907,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 1019280240, "Model::Redneck1_LeftLeg", "LimbNode" {
+	Model: 1019261392, "Model::Human_LeftLeg", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -922,7 +922,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 1019303440, "Model::Redneck1_LeftFoot", "LimbNode" {
+	Model: 1019263712, "Model::Human_LeftFoot", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -937,7 +937,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 1019275600, "Model::Redneck1_LeftToeBase", "LimbNode" {
+	Model: 1019254432, "Model::Human_LeftToeBase", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -951,7 +951,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 1019296480, "Model::Redneck1_RightUpLeg", "LimbNode" {
+	Model: 1019252112, "Model::Human_RightUpLeg", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -966,7 +966,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 1019252112, "Model::Redneck1_RightLeg", "LimbNode" {
+	Model: 830636416, "Model::Human_RightLeg", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -981,7 +981,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 1019261392, "Model::Redneck1_RightFoot", "LimbNode" {
+	Model: 830641056, "Model::Human_RightFoot", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -996,7 +996,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 1019254432, "Model::Redneck1_RightToeBase", "LimbNode" {
+	Model: 830643376, "Model::Human_RightToeBase", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",0,1.46228119730025e-006,0
@@ -1011,7 +1011,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 1019247472, "Model::Redneck1_Spine", "LimbNode" {
+	Model: 830631776, "Model::Human_Spine", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1024,20 +1024,20 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 395493360, "Model::Redneck1_Spine1", "LimbNode" {
+	Model: 973294288, "Model::Human_Spine1", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",2
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",-3.33212206625226e-017,0.174203991889954,-0.0120692616328597
+			P: "Lcl Translation", "Lcl Translation", "", "A",-4.23215148273609e-017,0.174203991889954,-0.0120692616328597
 			P: "lockInfluenceWeights", "Bool", "", "A+U",0
 		}
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 973285008, "Model::Redneck1_LeftShoulder", "LimbNode" {
+	Model: 973285008, "Model::Human_LeftShoulder", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1050,7 +1050,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 830631776, "Model::Redneck1_LeftArm", "LimbNode" {
+	Model: 395493360, "Model::Human_LeftArm", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1063,7 +1063,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 970030368, "Model::Redneck1_LeftForeArm", "LimbNode" {
+	Model: 1724416176, "Model::Human_LeftForeArm", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1076,7 +1076,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 970032688, "Model::Redneck1_LeftHand", "LimbNode" {
+	Model: 1724418496, "Model::Human_LeftHand", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1089,7 +1089,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 970035008, "Model::Redneck1_LeftHandThumb1", "LimbNode" {
+	Model: 1724420816, "Model::Human_LeftHandThumb1", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1102,7 +1102,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 970037328, "Model::Redneck1_LeftHandThumb2", "LimbNode" {
+	Model: 1724423136, "Model::Human_LeftHandThumb2", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1115,7 +1115,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 970039648, "Model::Redneck1_LeftHandIndex1", "LimbNode" {
+	Model: 1724425456, "Model::Human_LeftHandIndex1", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1128,7 +1128,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 970041968, "Model::Redneck1_LeftHandIndex2", "LimbNode" {
+	Model: 1724427776, "Model::Human_LeftHandIndex2", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",0,0.000609234835004153,0
@@ -1143,7 +1143,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 970044288, "Model::Redneck1_RightShoulder", "LimbNode" {
+	Model: 1724430096, "Model::Human_RightShoulder", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1156,7 +1156,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 970046608, "Model::Redneck1_RightArm", "LimbNode" {
+	Model: 1724432416, "Model::Human_RightArm", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1169,7 +1169,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 970048928, "Model::Redneck1_RightForeArm", "LimbNode" {
+	Model: 1724434736, "Model::Human_RightForeArm", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1182,7 +1182,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 970051248, "Model::Redneck1_RightHand", "LimbNode" {
+	Model: 1724437056, "Model::Human_RightHand", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1195,7 +1195,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 970053568, "Model::Redneck1_RightHandThumb1", "LimbNode" {
+	Model: 1724439376, "Model::Human_RightHandThumb1", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1208,7 +1208,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 970055888, "Model::Redneck1_RightHandThumb2", "LimbNode" {
+	Model: 1724441696, "Model::Human_RightHandThumb2", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1221,7 +1221,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 970058208, "Model::Redneck1_RightHandIndex1", "LimbNode" {
+	Model: 1724444016, "Model::Human_RightHandIndex1", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
@@ -1234,7 +1234,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 970060528, "Model::Redneck1_RightHandIndex2", "LimbNode" {
+	Model: 1724446336, "Model::Human_RightHandIndex2", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",0,0.000609254535526548,0
@@ -1249,48 +1249,36 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 1646034096, "Model::Redneck1_Neck", "LimbNode" {
+	Model: 215973952, "Model::Human_Neck", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",2
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",-3.26512672320812e-017,0.174204111099243,-0.00905194692313671
+			P: "Lcl Translation", "Lcl Translation", "", "A",-1.00845664822398e-016,0.174204111099243,-0.00905194692313671
 			P: "lockInfluenceWeights", "Bool", "", "A+U",0
 		}
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 1646036416, "Model::Redneck1_Head", "LimbNode" {
+	Model: 215976272, "Model::Human_Head", "LimbNode" {
 		Version: 232
 		Properties70:  {
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",2
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",-1.20989550911094e-016,0.153731942176819,0.00905194692313671
+			P: "Lcl Translation", "Lcl Translation", "", "A",-1.87752793692796e-016,0.153731942176819,0.00905194692313671
 			P: "lockInfluenceWeights", "Bool", "", "A+U",0
 		}
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Pose: 1085424672, "Pose::skinCluster1", "BindPose" {
+	Pose: 1691370464, "Pose::skinCluster1", "BindPose" {
 		Type: "BindPose"
 		Version: 100
 		NbPoseNodes: 27
-		PoseNode:  {
-			Node: 1019301120
-			Matrix: *16 {
-				a: 1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1
-			} 
-		}
-		PoseNode:  {
-			Node: 1019277920
-			Matrix: *16 {
-				a: 1,0,0,0,0,1,0,0,0,0,1,0,2.93317020983997e-017,1,0,1
-			} 
-		}
 		PoseNode:  {
 			Node: 1019291840
 			Matrix: *16 {
@@ -1298,61 +1286,73 @@ Objects:  {
 			} 
 		}
 		PoseNode:  {
-			Node: 1019284880
+			Node: 1019303440
 			Matrix: *16 {
-				a: 1.00000000000001,0,1.42836677241577e-006,0,3.48371580918184e-011,1.00000000000001,-2.43895046878606e-005,0,-1.42836677241576e-006,2.43895046879102e-005,1,0,0.0891000106930733,0.901092231273651,0.0331904701888561,1
+				a: 1,0,0,0,0,1,0,0,0,0,1,0,2.93317020983997e-017,1,0,1
 			} 
 		}
 		PoseNode:  {
 			Node: 1019280240
 			Matrix: *16 {
-				a: 1.00000000000003,-8.58537460613654e-011,-2.09174350289038e-006,0,1.34820870106418e-010,1.00000000000003,2.34097172896157e-005,0,2.09174350088051e-006,-2.34097172898971e-005,1,0,0.0991803556680679,0.523793935775757,9.21636819840171e-006,1
-			} 
-		}
-		PoseNode:  {
-			Node: 1019303440
-			Matrix: *16 {
-				a: 1,-1.34820864118827e-010,-2.5577360553898e-013,0,1.34820864118826e-010,1,-1.81927144180037e-012,0,2.55773605962496e-013,1.81927143841224e-012,1,0,0.134461581707001,0.133329629898071,-0.0392251014709473,1
-			} 
-		}
-		PoseNode:  {
-			Node: 1019275600
-			Matrix: *16 {
-				a: 1,-1.34820864118827e-010,-2.5577360553898e-013,0,1.34820864118827e-010,1,-1.81927144180037e-012,0,2.55773605962496e-013,1.81927143841224e-012,1,0,0.174783051013947,0.0369848161935806,0.0722182169556618,1
-			} 
-		}
-		PoseNode:  {
-			Node: 1019296480
-			Matrix: *16 {
-				a: 1.00000000000001,0,-1.42836677241577e-006,0,-3.48371580918184e-011,1.00000000000001,-2.43895046878606e-005,0,1.42836677241576e-006,2.43895046879102e-005,1,0,-0.0891000106930733,0.901092231273651,0.0331904701888561,1
-			} 
-		}
-		PoseNode:  {
-			Node: 1019252112
-			Matrix: *16 {
-				a: 1.00000000000003,8.58537460613654e-011,2.09174350289038e-006,0,-1.34820877716137e-010,1.00000000000003,2.34097209275945e-005,0,-2.09174350088051e-006,-2.34097209278759e-005,1,0,-0.0991803556680679,0.523793935775757,9.21636819840171e-006,1
-			} 
-		}
-		PoseNode:  {
-			Node: 1019261392
-			Matrix: *16 {
-				a: 1,1.34820877051319e-010,2.83990491814826e-014,0,-1.34820877051319e-010,1,-2.81977268140957e-016,0,-2.83990487579661e-014,2.81973880009168e-016,1,0,-0.134461581707001,0.133329629898071,-0.0392251014709473,1
-			} 
-		}
-		PoseNode:  {
-			Node: 1019254432
-			Matrix: *16 {
-				a: 1,1.34820877051312e-010,-2.5521593083845e-008,0,-1.34820877051319e-010,1,-2.81977268140957e-016,0,2.55215930838454e-008,2.85414727401263e-016,1,0,-0.174783051013947,0.0369848161935806,0.0722182169556618,1
+				a: 1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1
 			} 
 		}
 		PoseNode:  {
 			Node: 1019247472
 			Matrix: *16 {
+				a: 1.00000000000001,0,1.42836677241577e-006,0,3.48371580918184e-011,1.00000000000001,-2.43895046878606e-005,0,-1.42836677241576e-006,2.43895046879102e-005,1,0,0.0891000106930733,0.901092231273651,0.0331904701888561,1
+			} 
+		}
+		PoseNode:  {
+			Node: 1019261392
+			Matrix: *16 {
+				a: 1.00000000000003,-8.58537460613654e-011,-2.09174350289038e-006,0,1.34820870106418e-010,1.00000000000003,2.34097172896157e-005,0,2.09174350088051e-006,-2.34097172898971e-005,1,0,0.0991803556680679,0.523793935775757,9.21636819840171e-006,1
+			} 
+		}
+		PoseNode:  {
+			Node: 1019263712
+			Matrix: *16 {
+				a: 1,-1.34820864118827e-010,-2.5577360553898e-013,0,1.34820864118826e-010,1,-1.81927144180037e-012,0,2.55773605962496e-013,1.81927143841224e-012,1,0,0.134461581707001,0.133329629898071,-0.0392251014709473,1
+			} 
+		}
+		PoseNode:  {
+			Node: 1019254432
+			Matrix: *16 {
+				a: 1,-1.34820864118827e-010,-2.5577360553898e-013,0,1.34820864118827e-010,1,-1.81927144180037e-012,0,2.55773605962496e-013,1.81927143841224e-012,1,0,0.174783051013947,0.0369848161935806,0.0722182169556618,1
+			} 
+		}
+		PoseNode:  {
+			Node: 1019252112
+			Matrix: *16 {
+				a: 1.00000000000001,0,-1.42836677241577e-006,0,-3.48371580918184e-011,1.00000000000001,-2.43895046878606e-005,0,1.42836677241576e-006,2.43895046879102e-005,1,0,-0.0891000106930733,0.901092231273651,0.0331904701888561,1
+			} 
+		}
+		PoseNode:  {
+			Node: 830636416
+			Matrix: *16 {
+				a: 1.00000000000003,8.58537460613654e-011,2.09174350289038e-006,0,-1.34820877716137e-010,1.00000000000003,2.34097209275945e-005,0,-2.09174350088051e-006,-2.34097209278759e-005,1,0,-0.0991803556680679,0.523793935775757,9.21636819840171e-006,1
+			} 
+		}
+		PoseNode:  {
+			Node: 830641056
+			Matrix: *16 {
+				a: 1,1.34820877051319e-010,2.83990491814826e-014,0,-1.34820877051319e-010,1,-2.81977268140957e-016,0,-2.83990487579661e-014,2.81973880009168e-016,1,0,-0.134461581707001,0.133329629898071,-0.0392251014709473,1
+			} 
+		}
+		PoseNode:  {
+			Node: 830643376
+			Matrix: *16 {
+				a: 1,1.34820877051312e-010,-2.5521593083845e-008,0,-1.34820877051319e-010,1,-2.81977268140957e-016,0,2.55215930838454e-008,2.85414727401263e-016,1,0,-0.174783051013947,0.0369848161935806,0.0722182169556618,1
+			} 
+		}
+		PoseNode:  {
+			Node: 830631776
+			Matrix: *16 {
 				a: 1,0,0,0,0,1,0,0,0,0,1,0,5.94832857676273e-017,1.14785993099213,0.0120692616328597,1
 			} 
 		}
 		PoseNode:  {
-			Node: 395493360
+			Node: 973294288
 			Matrix: *16 {
 				a: 1,0,0,0,0,1,0,0,0,0,1,0,1.42205224845642e-016,1.32206392288208,0,1
 			} 
@@ -1364,85 +1364,85 @@ Objects:  {
 			} 
 		}
 		PoseNode:  {
-			Node: 830631776
+			Node: 395493360
 			Matrix: *16 {
 				a: 1,0,0,0,0,1,0,0,0,0,1,0,0.17588584125042,1.43381118774414,-0.0401007160544395,1
 			} 
 		}
 		PoseNode:  {
-			Node: 970030368
+			Node: 1724416176
 			Matrix: *16 {
 				a: 1,0,0,0,0,1,0,0,0,0,1,0,0.404984503984451,1.39346408843994,-0.0451133102178574,1
 			} 
 		}
 		PoseNode:  {
-			Node: 970032688
+			Node: 1724418496
 			Matrix: *16 {
 				a: 1,0,0,0,0,1,0,0,0,0,1,0,0.632710337638855,1.3911612033844,0.00751888006925583,1
 			} 
 		}
 		PoseNode:  {
-			Node: 970035008
+			Node: 1724420816
 			Matrix: *16 {
 				a: 1,0,0,0,0,1,0,0,0,0,1,0,0.67437881231308,1.36611711978912,0.0645262002944946,1
 			} 
 		}
 		PoseNode:  {
-			Node: 970039648
+			Node: 1724425456
 			Matrix: *16 {
 				a: 1,0,0,0,0,1,0,0,0,0,1,0,0.733550250530243,1.39885830879211,0.0235575772821903,1
 			} 
 		}
 		PoseNode:  {
-			Node: 970044288
+			Node: 1724430096
 			Matrix: *16 {
 				a: 1,0,0,0,0,1,0,0,0,0,1,0,0.733550250530243,1.39885830879211,0.0235575772821903,1
 			} 
 		}
 		PoseNode:  {
-			Node: 970046608
+			Node: 1724432416
 			Matrix: *16 {
 				a: 1,0,0,0,0,1,0,0,0,0,1,0,-0.17588584125042,1.43381118774414,-0.0401007160544395,1
 			} 
 		}
 		PoseNode:  {
-			Node: 970048928
+			Node: 1724434736
 			Matrix: *16 {
 				a: 1,0,0,0,0,1,0,0,0,0,1,0,-0.110392779111862,1.41543757915497,-0.0189345292747021,1
 			} 
 		}
 		PoseNode:  {
-			Node: 970051248
+			Node: 1724437056
 			Matrix: *16 {
 				a: 1,0,0,0,0,1,0,0,0,0,1,0,-0.17588584125042,1.43381118774414,-0.0401007160544395,1
 			} 
 		}
 		PoseNode:  {
-			Node: 970053568
+			Node: 1724439376
 			Matrix: *16 {
 				a: 1,0,0,0,0,1,0,0,0,0,1,0,-0.404984503984451,1.39346408843994,-0.0451133102178574,1
 			} 
 		}
 		PoseNode:  {
-			Node: 970058208
+			Node: 1724444016
 			Matrix: *16 {
 				a: 1,0,0,0,0,1,0,0,0,0,1,0,-0.632710337638855,1.3911612033844,0.00751888006925583,1
 			} 
 		}
 		PoseNode:  {
-			Node: 1646034096
+			Node: 215973952
 			Matrix: *16 {
 				a: 1,0,0,0,0,1,0,0,0,0,1,0,-0.67437881231308,1.36611711978912,0.0645262002944946,1
 			} 
 		}
 		PoseNode:  {
-			Node: 1646036416
+			Node: 215976272
 			Matrix: *16 {
 				a: 1,0,0,0,0,1,0,0,0,0,1,0,3.40308986147012e-016,1.64999997615814,0,1
 			} 
 		}
 	}
-	Material: 1082070512, "Material::M_Redneck", "" {
+	Material: 1082046512, "Material::M_Redneck", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -1457,12 +1457,12 @@ Objects:  {
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
-	Deformer: 1040729776, "Deformer::", "Skin" {
+	Deformer: 1047495008, "Deformer::", "Skin" {
 		Version: 101
 		Link_DeformAcuracy: 50
 		SkinningType: "Linear"
 	}
-	Deformer: 220712064, "SubDeformer::", "Cluster" {
+	Deformer: 1069088640, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *775 {
@@ -1481,7 +1481,7 @@ Objects:  {
 			a: 1,0,0,0,-0,1,0,0,0,-0,1,0,2.93317020983997e-017,1,0,1
 		} 
 	}
-	Deformer: 220718080, "SubDeformer::", "Cluster" {
+	Deformer: 1069084128, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *582 {
@@ -1499,7 +1499,7 @@ Objects:  {
 			a: 1.00000000000001,6.4623485394147e-027,1.42836677241577e-006,0,3.48371580918184e-011,1.00000000000001,-2.43895046878606e-005,0,-1.42836677241576e-006,2.43895046879101e-005,1,0,0.0891000106930733,0.901092231273651,0.0331904701888561,1
 		} 
 	}
-	Deformer: 220720336, "SubDeformer::", "Cluster" {
+	Deformer: 1069086384, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *356 {
@@ -1516,7 +1516,7 @@ Objects:  {
 			a: 1.00000000000003,-8.58537460613654e-011,-2.09174350289038e-006,0,1.34820870106418e-010,1.00000000000003,2.34097172896157e-005,0,2.09174350088051e-006,-2.34097172898971e-005,1,0,0.0991803556680679,0.523793935775757,9.21636819840171e-006,1
 		} 
 	}
-	Deformer: 220715072, "SubDeformer::", "Cluster" {
+	Deformer: 1069079616, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *302 {
@@ -1533,7 +1533,7 @@ Objects:  {
 			a: 1,-1.34820864118827e-010,-2.5577360553898e-013,0,1.34820864118826e-010,1,-1.81927144180037e-012,0,2.55773605784256e-013,1.81927144176589e-012,1,0,0.134461581707001,0.133329629898071,-0.0392251014709473,1
 		} 
 	}
-	Deformer: 220716576, "SubDeformer::", "Cluster" {
+	Deformer: 1069090896, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *121 {
@@ -1549,7 +1549,7 @@ Objects:  {
 			a: 1,-1.34820864118827e-010,-2.5577360553898e-013,0,1.34820864118826e-010,1,-1.81927144180037e-012,0,2.55773605784256e-013,1.81927144176589e-012,1,0,0.174783051013947,0.0369848161935806,0.0722182169556618,1
 		} 
 	}
-	Deformer: 1030688352, "SubDeformer::", "Cluster" {
+	Deformer: 1069087888, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *545 {
@@ -1567,7 +1567,7 @@ Objects:  {
 			a: 1.00000000000001,-6.4623485394147e-027,-1.42836677241577e-006,0,-3.48371580918184e-011,1.00000000000001,-2.43895046878606e-005,0,1.42836677241576e-006,2.43895046879101e-005,1,0,-0.0891000106930733,0.901092231273651,0.0331904701888561,1
 		} 
 	}
-	Deformer: 1030686848, "SubDeformer::", "Cluster" {
+	Deformer: 1069089392, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *333 {
@@ -1584,7 +1584,7 @@ Objects:  {
 			a: 1.00000000000003,8.58537460613654e-011,2.09174350289038e-006,0,-1.34820877716137e-010,1.00000000000003,2.34097209275945e-005,0,-2.09174350088051e-006,-2.34097209278759e-005,1,0,-0.0991803556680679,0.523793935775757,9.21636819840171e-006,1
 		} 
 	}
-	Deformer: 1030687600, "SubDeformer::", "Cluster" {
+	Deformer: 1069078112, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *295 {
@@ -1600,7 +1600,7 @@ Objects:  {
 			a: 1,1.34820877051319e-010,2.83990491814826e-014,0,-1.34820877051319e-010,1,-2.81977268140957e-016,0,-2.83990491815206e-014,2.81977264312172e-016,1,0,-0.134461581707001,0.133329629898071,-0.0392251014709473,1
 		} 
 	}
-	Deformer: 1030689856, "SubDeformer::", "Cluster" {
+	Deformer: 220718080, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *123 {
@@ -1616,7 +1616,7 @@ Objects:  {
 			a: 1,1.34820877051312e-010,-2.5521593083845e-008,0,-1.34820877051319e-010,1,-2.81977268140957e-016,0,2.5521593083845e-008,2.85418111704267e-016,1,0,-0.174783051013947,0.0369848161935806,0.0722182169556618,1
 		} 
 	}
-	Deformer: 1069078864, "SubDeformer::", "Cluster" {
+	Deformer: 220711312, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *410 {
@@ -1633,7 +1633,7 @@ Objects:  {
 			a: 1,0,0,0,-0,1,0,0,0,-0,1,0,5.94832857676273e-017,1.14785993099213,0.0120692616328597,1
 		} 
 	}
-	Deformer: 1069089392, "SubDeformer::", "Cluster" {
+	Deformer: 220712064, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *867 {
@@ -1652,7 +1652,7 @@ Objects:  {
 			a: 1,0,0,0,-0,1,0,0,0,-0,1,0,1.42205224845642e-016,1.32206392288208,0,1
 		} 
 	}
-	Deformer: 1069087888, "SubDeformer::", "Cluster" {
+	Deformer: 220723344, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *417 {
@@ -1669,7 +1669,7 @@ Objects:  {
 			a: 1,0,0,0,-0,1,0,0,0,-0,1,0,0.110392779111862,1.41543757915497,-0.0189345292747021,1
 		} 
 	}
-	Deformer: 1069088640, "SubDeformer::", "Cluster" {
+	Deformer: 220719584, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *351 {
@@ -1686,7 +1686,7 @@ Objects:  {
 			a: 1,0,0,0,-0,1,0,0,0,-0,1,0,0.17588584125042,1.43381118774414,-0.0401007160544395,1
 		} 
 	}
-	Deformer: 1069086384, "SubDeformer::", "Cluster" {
+	Deformer: 220720336, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *140 {
@@ -1702,7 +1702,7 @@ Objects:  {
 			a: 1,0,0,0,-0,1,0,0,0,-0,1,0,0.404984503984451,1.39346408843994,-0.0451133102178574,1
 		} 
 	}
-	Deformer: 1069090896, "SubDeformer::", "Cluster" {
+	Deformer: 220716576, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *138 {
@@ -1718,7 +1718,7 @@ Objects:  {
 			a: 1,0,0,0,-0,1,0,0,0,-0,1,0,0.632710337638855,1.3911612033844,0.00751888006925583,1
 		} 
 	}
-	Deformer: 1069084128, "SubDeformer::", "Cluster" {
+	Deformer: 220721088, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *96 {
@@ -1734,7 +1734,7 @@ Objects:  {
 			a: 1,0,0,0,-0,1,0,0,0,-0,1,0,0.67437881231308,1.36611711978912,0.0645262002944946,1
 		} 
 	}
-	Deformer: 1069078112, "SubDeformer::", "Cluster" {
+	Deformer: 220718832, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *115 {
@@ -1750,7 +1750,7 @@ Objects:  {
 			a: 1,0,0,0,-0,1,0,0,0,-0,1,0,0.733550250530243,1.39885830879211,0.0235575772821903,1
 		} 
 	}
-	Deformer: 1069079616, "SubDeformer::", "Cluster" {
+	Deformer: 220715824, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *395 {
@@ -1767,7 +1767,7 @@ Objects:  {
 			a: 1,0,0,0,-0,1,0,0,0,-0,1,0,-0.110392779111862,1.41543757915497,-0.0189345292747021,1
 		} 
 	}
-	Deformer: 967023344, "SubDeformer::", "Cluster" {
+	Deformer: 967024096, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *337 {
@@ -1784,7 +1784,7 @@ Objects:  {
 			a: 1,0,0,0,-0,1,0,0,0,-0,1,0,-0.17588584125042,1.43381118774414,-0.0401007160544395,1
 		} 
 	}
-	Deformer: 967024096, "SubDeformer::", "Cluster" {
+	Deformer: 967023344, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *140 {
@@ -1800,7 +1800,7 @@ Objects:  {
 			a: 1,0,0,0,-0,1,0,0,0,-0,1,0,-0.404984503984451,1.39346408843994,-0.0451133102178574,1
 		} 
 	}
-	Deformer: 967027856, "SubDeformer::", "Cluster" {
+	Deformer: 967022592, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *136 {
@@ -1832,7 +1832,7 @@ Objects:  {
 			a: 1,0,0,0,-0,1,0,0,0,-0,1,0,-0.67437881231308,1.36611711978912,0.0645262002944946,1
 		} 
 	}
-	Deformer: 967022592, "SubDeformer::", "Cluster" {
+	Deformer: 967027856, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *115 {
@@ -1848,7 +1848,7 @@ Objects:  {
 			a: 1,0,0,0,-0,1,0,0,0,-0,1,0,-0.733550250530243,1.39885830879211,0.0235575772821903,1
 		} 
 	}
-	Deformer: 870787024, "SubDeformer::", "Cluster" {
+	Deformer: 870787776, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *770 {
@@ -1867,7 +1867,7 @@ Objects:  {
 			a: 1,0,0,0,-0,1,0,0,0,-0,1,0,2.45942686619746e-016,1.49626803398132,-0.00905194692313671,1
 		} 
 	}
-	Deformer: 870788528, "SubDeformer::", "Cluster" {
+	Deformer: 870787024, "SubDeformer::", "Cluster" {
 		Version: 100
 		UserData: "", ""
 		Indexes: *467 {
@@ -1893,521 +1893,521 @@ Objects:  {
 Connections:  {
 	
 	;Model::Redneck, Model::RootNode
-	C: "OO",1019301120,0
-	
-	;Model::Redneck1_Reference, Model::RootNode
 	C: "OO",1019291840,0
 	
+	;Model::Human_Reference, Model::RootNode
+	C: "OO",1019280240,0
+	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",1041024960,1687376160
+	C: "OO",969416304,1687432320
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687370544,1041024960
+	C: "OO",1687398416,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687375952,1041024960
+	C: "OO",1687406944,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687372832,1041024960
+	C: "OO",1687507616,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687372208,1041024960
+	C: "OO",1687503248,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687375744,1041024960
+	C: "OO",1687436064,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687373456,1041024960
+	C: "OO",1687435024,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687378240,1041024960
+	C: "OO",1687393008,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687373248,1041024960
+	C: "OO",1687432528,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687372416,1041024960
+	C: "OO",1687429408,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687370128,1041024960
+	C: "OO",1687430448,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687375328,1041024960
+	C: "OO",1687374080,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687376576,1041024960
+	C: "OO",1687367632,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687373872,1041024960
+	C: "OO",1687434400,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687372624,1041024960
+	C: "OO",1687372208,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687371584,1041024960
+	C: "OO",1687427536,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687376368,1041024960
+	C: "OO",1687415056,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687377200,1041024960
+	C: "OO",1687389056,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687378864,1041024960
+	C: "OO",1687375744,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687374080,1041024960
+	C: "OO",1687432112,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687371168,1041024960
+	C: "OO",1687433776,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687369712,1041024960
+	C: "OO",1687473296,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687371792,1041024960
+	C: "OO",1687434816,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687372000,1041024960
+	C: "OO",1687467472,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687374704,1041024960
+	C: "OO",1687396544,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687373664,1041024960
+	C: "OO",1687414640,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687374496,1041024960
+	C: "OO",1687430864,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687368048,1041024960
+	C: "OO",1687393632,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687368256,1041024960
+	C: "OO",1687432736,969416304
 	
 	;AnimCurveNode::lockInfluenceWeights, AnimLayer::BaseLayer
-	C: "OO",1687367840,1041024960
+	C: "OO",1687333312,969416304
 	
 	;Deformer::, Geometry::
-	C: "OO",1040729776,1022680080
+	C: "OO",1047495008,1282481840
 	
 	;Geometry::, Model::Redneck
-	C: "OO",1022680080,1019301120
+	C: "OO",1282481840,1019291840
 	
 	;Material::M_Redneck, Model::Redneck
-	C: "OO",1082070512,1019301120
+	C: "OO",1082046512,1019291840
 	
-	;NodeAttribute::, Model::Redneck1_Reference
-	C: "OO",1085425024,1019291840
+	;NodeAttribute::, Model::Human_Reference
+	C: "OO",1691379088,1019280240
 	
-	;Model::Redneck1_Hips, Model::Redneck1_Reference
-	C: "OO",1019277920,1019291840
-	
-	;NodeAttribute::, Model::Redneck1_Hips
-	C: "OO",1040707696,1019277920
-	
-	;Model::Redneck1_LeftUpLeg, Model::Redneck1_Hips
-	C: "OO",1019284880,1019277920
-	
-	;Model::Redneck1_RightUpLeg, Model::Redneck1_Hips
-	C: "OO",1019296480,1019277920
-	
-	;Model::Redneck1_Spine, Model::Redneck1_Hips
-	C: "OO",1019247472,1019277920
-	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_Hips
-	C: "OP",1687370544,1019277920, "lockInfluenceWeights"
-	
-	;NodeAttribute::, Model::Redneck1_LeftUpLeg
-	C: "OO",1040708080,1019284880
-	
-	;Model::Redneck1_LeftLeg, Model::Redneck1_LeftUpLeg
-	C: "OO",1019280240,1019284880
-	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_LeftUpLeg
-	C: "OP",1687375952,1019284880, "lockInfluenceWeights"
-	
-	;NodeAttribute::, Model::Redneck1_LeftLeg
-	C: "OO",1040710000,1019280240
-	
-	;Model::Redneck1_LeftFoot, Model::Redneck1_LeftLeg
+	;Model::Human_Hips, Model::Human_Reference
 	C: "OO",1019303440,1019280240
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_LeftLeg
-	C: "OP",1687372832,1019280240, "lockInfluenceWeights"
+	;NodeAttribute::, Model::Human_Hips
+	C: "OO",1047527840,1019303440
 	
-	;NodeAttribute::, Model::Redneck1_LeftFoot
-	C: "OO",1040708272,1019303440
+	;Model::Human_LeftUpLeg, Model::Human_Hips
+	C: "OO",1019247472,1019303440
 	
-	;Model::Redneck1_LeftToeBase, Model::Redneck1_LeftFoot
-	C: "OO",1019275600,1019303440
+	;Model::Human_RightUpLeg, Model::Human_Hips
+	C: "OO",1019252112,1019303440
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_LeftFoot
-	C: "OP",1687372208,1019303440, "lockInfluenceWeights"
+	;Model::Human_Spine, Model::Human_Hips
+	C: "OO",830631776,1019303440
 	
-	;NodeAttribute::, Model::Redneck1_LeftToeBase
-	C: "OO",1040707888,1019275600
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_Hips
+	C: "OP",1687398416,1019303440, "lockInfluenceWeights"
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_LeftToeBase
-	C: "OP",1687375744,1019275600, "lockInfluenceWeights"
+	;NodeAttribute::, Model::Human_LeftUpLeg
+	C: "OO",1047515168,1019247472
 	
-	;NodeAttribute::, Model::Redneck1_RightUpLeg
-	C: "OO",1040709808,1019296480
+	;Model::Human_LeftLeg, Model::Human_LeftUpLeg
+	C: "OO",1019261392,1019247472
 	
-	;Model::Redneck1_RightLeg, Model::Redneck1_RightUpLeg
-	C: "OO",1019252112,1019296480
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_LeftUpLeg
+	C: "OP",1687406944,1019247472, "lockInfluenceWeights"
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_RightUpLeg
-	C: "OP",1687373456,1019296480, "lockInfluenceWeights"
+	;NodeAttribute::, Model::Human_LeftLeg
+	C: "OO",1047508640,1019261392
 	
-	;NodeAttribute::, Model::Redneck1_RightLeg
-	C: "OO",1040708848,1019252112
+	;Model::Human_LeftFoot, Model::Human_LeftLeg
+	C: "OO",1019263712,1019261392
 	
-	;Model::Redneck1_RightFoot, Model::Redneck1_RightLeg
-	C: "OO",1019261392,1019252112
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_LeftLeg
+	C: "OP",1687507616,1019261392, "lockInfluenceWeights"
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_RightLeg
-	C: "OP",1687378240,1019252112, "lockInfluenceWeights"
+	;NodeAttribute::, Model::Human_LeftFoot
+	C: "OO",1047500768,1019263712
 	
-	;NodeAttribute::, Model::Redneck1_RightFoot
-	C: "OO",1040708464,1019261392
+	;Model::Human_LeftToeBase, Model::Human_LeftFoot
+	C: "OO",1019254432,1019263712
 	
-	;Model::Redneck1_RightToeBase, Model::Redneck1_RightFoot
-	C: "OO",1019254432,1019261392
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_LeftFoot
+	C: "OP",1687503248,1019263712, "lockInfluenceWeights"
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_RightFoot
-	C: "OP",1687373248,1019261392, "lockInfluenceWeights"
+	;NodeAttribute::, Model::Human_LeftToeBase
+	C: "OO",1047503456,1019254432
 	
-	;NodeAttribute::, Model::Redneck1_RightToeBase
-	C: "OO",1040709040,1019254432
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_LeftToeBase
+	C: "OP",1687436064,1019254432, "lockInfluenceWeights"
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_RightToeBase
-	C: "OP",1687372416,1019254432, "lockInfluenceWeights"
+	;NodeAttribute::, Model::Human_RightUpLeg
+	C: "OO",1047538976,1019252112
 	
-	;NodeAttribute::, Model::Redneck1_Spine
-	C: "OO",1040709424,1019247472
+	;Model::Human_RightLeg, Model::Human_RightUpLeg
+	C: "OO",830636416,1019252112
 	
-	;Model::Redneck1_Spine1, Model::Redneck1_Spine
-	C: "OO",395493360,1019247472
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_RightUpLeg
+	C: "OP",1687435024,1019252112, "lockInfluenceWeights"
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_Spine
-	C: "OP",1687370128,1019247472, "lockInfluenceWeights"
+	;NodeAttribute::, Model::Human_RightLeg
+	C: "OO",1047477152,830636416
 	
-	;NodeAttribute::, Model::Redneck1_Spine1
-	C: "OO",1040709232,395493360
+	;Model::Human_RightFoot, Model::Human_RightLeg
+	C: "OO",830641056,830636416
 	
-	;Model::Redneck1_LeftShoulder, Model::Redneck1_Spine1
-	C: "OO",973285008,395493360
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_RightLeg
+	C: "OP",1687393008,830636416, "lockInfluenceWeights"
 	
-	;Model::Redneck1_RightShoulder, Model::Redneck1_Spine1
-	C: "OO",970044288,395493360
+	;NodeAttribute::, Model::Human_RightFoot
+	C: "OO",1047503072,830641056
 	
-	;Model::Redneck1_Neck, Model::Redneck1_Spine1
-	C: "OO",1646034096,395493360
+	;Model::Human_RightToeBase, Model::Human_RightFoot
+	C: "OO",830643376,830641056
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_Spine1
-	C: "OP",1687375328,395493360, "lockInfluenceWeights"
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_RightFoot
+	C: "OP",1687432528,830641056, "lockInfluenceWeights"
 	
-	;NodeAttribute::, Model::Redneck1_LeftShoulder
-	C: "OO",1040752432,973285008
+	;NodeAttribute::, Model::Human_RightToeBase
+	C: "OO",1047517088,830643376
 	
-	;Model::Redneck1_LeftArm, Model::Redneck1_LeftShoulder
-	C: "OO",830631776,973285008
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_RightToeBase
+	C: "OP",1687429408,830643376, "lockInfluenceWeights"
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_LeftShoulder
-	C: "OP",1687376576,973285008, "lockInfluenceWeights"
+	;NodeAttribute::, Model::Human_Spine
+	C: "OO",1047538208,830631776
 	
-	;NodeAttribute::, Model::Redneck1_LeftArm
-	C: "OO",1040739376,830631776
+	;Model::Human_Spine1, Model::Human_Spine
+	C: "OO",973294288,830631776
 	
-	;Model::Redneck1_LeftForeArm, Model::Redneck1_LeftArm
-	C: "OO",970030368,830631776
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_Spine
+	C: "OP",1687430448,830631776, "lockInfluenceWeights"
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_LeftArm
-	C: "OP",1687373872,830631776, "lockInfluenceWeights"
+	;NodeAttribute::, Model::Human_Spine1
+	C: "OO",1047522464,973294288
 	
-	;NodeAttribute::, Model::Redneck1_LeftForeArm
-	C: "OO",1040725552,970030368
+	;Model::Human_LeftShoulder, Model::Human_Spine1
+	C: "OO",973285008,973294288
 	
-	;Model::Redneck1_LeftHand, Model::Redneck1_LeftForeArm
-	C: "OO",970032688,970030368
+	;Model::Human_RightShoulder, Model::Human_Spine1
+	C: "OO",1724430096,973294288
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_LeftForeArm
-	C: "OP",1687372624,970030368, "lockInfluenceWeights"
+	;Model::Human_Neck, Model::Human_Spine1
+	C: "OO",215973952,973294288
 	
-	;NodeAttribute::, Model::Redneck1_LeftHand
-	C: "OO",1040741104,970032688
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_Spine1
+	C: "OP",1687374080,973294288, "lockInfluenceWeights"
 	
-	;Model::Redneck1_LeftHandThumb1, Model::Redneck1_LeftHand
-	C: "OO",970035008,970032688
+	;NodeAttribute::, Model::Human_LeftShoulder
+	C: "OO",1047476960,973285008
 	
-	;Model::Redneck1_LeftHandIndex1, Model::Redneck1_LeftHand
-	C: "OO",970039648,970032688
+	;Model::Human_LeftArm, Model::Human_LeftShoulder
+	C: "OO",395493360,973285008
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_LeftHand
-	C: "OP",1687371584,970032688, "lockInfluenceWeights"
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_LeftShoulder
+	C: "OP",1687367632,973285008, "lockInfluenceWeights"
 	
-	;NodeAttribute::, Model::Redneck1_LeftHandThumb1
-	C: "OO",1040724976,970035008
+	;NodeAttribute::, Model::Human_LeftArm
+	C: "OO",1047509024,395493360
 	
-	;Model::Redneck1_LeftHandThumb2, Model::Redneck1_LeftHandThumb1
-	C: "OO",970037328,970035008
+	;Model::Human_LeftForeArm, Model::Human_LeftArm
+	C: "OO",1724416176,395493360
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_LeftHandThumb1
-	C: "OP",1687376368,970035008, "lockInfluenceWeights"
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_LeftArm
+	C: "OP",1687434400,395493360, "lockInfluenceWeights"
 	
-	;NodeAttribute::, Model::Redneck1_LeftHandThumb2
-	C: "OO",1040739184,970037328
+	;NodeAttribute::, Model::Human_LeftForeArm
+	C: "OO",1047504032,1724416176
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_LeftHandThumb2
-	C: "OP",1687377200,970037328, "lockInfluenceWeights"
+	;Model::Human_LeftHand, Model::Human_LeftForeArm
+	C: "OO",1724418496,1724416176
 	
-	;NodeAttribute::, Model::Redneck1_LeftHandIndex1
-	C: "OO",1040738800,970039648
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_LeftForeArm
+	C: "OP",1687372208,1724416176, "lockInfluenceWeights"
 	
-	;Model::Redneck1_LeftHandIndex2, Model::Redneck1_LeftHandIndex1
-	C: "OO",970041968,970039648
+	;NodeAttribute::, Model::Human_LeftHand
+	C: "OO",1047521504,1724418496
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_LeftHandIndex1
-	C: "OP",1687378864,970039648, "lockInfluenceWeights"
+	;Model::Human_LeftHandThumb1, Model::Human_LeftHand
+	C: "OO",1724420816,1724418496
 	
-	;NodeAttribute::, Model::Redneck1_LeftHandIndex2
-	C: "OO",1040748976,970041968
+	;Model::Human_LeftHandIndex1, Model::Human_LeftHand
+	C: "OO",1724425456,1724418496
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_LeftHandIndex2
-	C: "OP",1687374080,970041968, "lockInfluenceWeights"
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_LeftHand
+	C: "OP",1687427536,1724418496, "lockInfluenceWeights"
 	
-	;NodeAttribute::, Model::Redneck1_RightShoulder
-	C: "OO",1040724592,970044288
+	;NodeAttribute::, Model::Human_LeftHandThumb1
+	C: "OO",1047504800,1724420816
 	
-	;Model::Redneck1_RightArm, Model::Redneck1_RightShoulder
-	C: "OO",970046608,970044288
+	;Model::Human_LeftHandThumb2, Model::Human_LeftHandThumb1
+	C: "OO",1724423136,1724420816
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_RightShoulder
-	C: "OP",1687371168,970044288, "lockInfluenceWeights"
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_LeftHandThumb1
+	C: "OP",1687415056,1724420816, "lockInfluenceWeights"
 	
-	;NodeAttribute::, Model::Redneck1_RightArm
-	C: "OO",1040739952,970046608
+	;NodeAttribute::, Model::Human_LeftHandThumb2
+	C: "OO",1047519200,1724423136
 	
-	;Model::Redneck1_RightForeArm, Model::Redneck1_RightArm
-	C: "OO",970048928,970046608
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_LeftHandThumb2
+	C: "OP",1687389056,1724423136, "lockInfluenceWeights"
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_RightArm
-	C: "OP",1687369712,970046608, "lockInfluenceWeights"
+	;NodeAttribute::, Model::Human_LeftHandIndex1
+	C: "OO",1047534560,1724425456
 	
-	;NodeAttribute::, Model::Redneck1_RightForeArm
-	C: "OO",1040728432,970048928
+	;Model::Human_LeftHandIndex2, Model::Human_LeftHandIndex1
+	C: "OO",1724427776,1724425456
 	
-	;Model::Redneck1_RightHand, Model::Redneck1_RightForeArm
-	C: "OO",970051248,970048928
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_LeftHandIndex1
+	C: "OP",1687375744,1724425456, "lockInfluenceWeights"
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_RightForeArm
-	C: "OP",1687371792,970048928, "lockInfluenceWeights"
+	;NodeAttribute::, Model::Human_LeftHandIndex2
+	C: "OO",1047513248,1724427776
 	
-	;NodeAttribute::, Model::Redneck1_RightHand
-	C: "OO",1040738416,970051248
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_LeftHandIndex2
+	C: "OP",1687432112,1724427776, "lockInfluenceWeights"
 	
-	;Model::Redneck1_RightHandThumb1, Model::Redneck1_RightHand
-	C: "OO",970053568,970051248
+	;NodeAttribute::, Model::Human_RightShoulder
+	C: "OO",1047492704,1724430096
 	
-	;Model::Redneck1_RightHandIndex1, Model::Redneck1_RightHand
-	C: "OO",970058208,970051248
+	;Model::Human_RightArm, Model::Human_RightShoulder
+	C: "OO",1724432416,1724430096
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_RightHand
-	C: "OP",1687372000,970051248, "lockInfluenceWeights"
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_RightShoulder
+	C: "OP",1687433776,1724430096, "lockInfluenceWeights"
 	
-	;NodeAttribute::, Model::Redneck1_RightHandThumb1
-	C: "OO",1040694832,970053568
+	;NodeAttribute::, Model::Human_RightArm
+	C: "OO",1047539360,1724432416
 	
-	;Model::Redneck1_RightHandThumb2, Model::Redneck1_RightHandThumb1
-	C: "OO",970055888,970053568
+	;Model::Human_RightForeArm, Model::Human_RightArm
+	C: "OO",1724434736,1724432416
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_RightHandThumb1
-	C: "OP",1687374704,970053568, "lockInfluenceWeights"
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_RightArm
+	C: "OP",1687473296,1724432416, "lockInfluenceWeights"
 	
-	;NodeAttribute::, Model::Redneck1_RightHandThumb2
-	C: "OO",1040737264,970055888
+	;NodeAttribute::, Model::Human_RightForeArm
+	C: "OO",1047522848,1724434736
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_RightHandThumb2
-	C: "OP",1687373664,970055888, "lockInfluenceWeights"
+	;Model::Human_RightHand, Model::Human_RightForeArm
+	C: "OO",1724437056,1724434736
 	
-	;NodeAttribute::, Model::Redneck1_RightHandIndex1
-	C: "OO",1040738608,970058208
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_RightForeArm
+	C: "OP",1687434816,1724434736, "lockInfluenceWeights"
 	
-	;Model::Redneck1_RightHandIndex2, Model::Redneck1_RightHandIndex1
-	C: "OO",970060528,970058208
+	;NodeAttribute::, Model::Human_RightHand
+	C: "OO",1047536480,1724437056
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_RightHandIndex1
-	C: "OP",1687374496,970058208, "lockInfluenceWeights"
+	;Model::Human_RightHandThumb1, Model::Human_RightHand
+	C: "OO",1724439376,1724437056
 	
-	;NodeAttribute::, Model::Redneck1_RightHandIndex2
-	C: "OO",1040740528,970060528
+	;Model::Human_RightHandIndex1, Model::Human_RightHand
+	C: "OO",1724444016,1724437056
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_RightHandIndex2
-	C: "OP",1687368048,970060528, "lockInfluenceWeights"
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_RightHand
+	C: "OP",1687467472,1724437056, "lockInfluenceWeights"
 	
-	;NodeAttribute::, Model::Redneck1_Neck
-	C: "OO",1040737840,1646034096
+	;NodeAttribute::, Model::Human_RightHandThumb1
+	C: "OO",1047532064,1724439376
 	
-	;Model::Redneck1_Head, Model::Redneck1_Neck
-	C: "OO",1646036416,1646034096
+	;Model::Human_RightHandThumb2, Model::Human_RightHandThumb1
+	C: "OO",1724441696,1724439376
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_Neck
-	C: "OP",1687368256,1646034096, "lockInfluenceWeights"
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_RightHandThumb1
+	C: "OP",1687396544,1724439376, "lockInfluenceWeights"
 	
-	;NodeAttribute::, Model::Redneck1_Head
-	C: "OO",1040729392,1646036416
+	;NodeAttribute::, Model::Human_RightHandThumb2
+	C: "OO",1047516704,1724441696
 	
-	;AnimCurveNode::lockInfluenceWeights, Model::Redneck1_Head
-	C: "OP",1687367840,1646036416, "lockInfluenceWeights"
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_RightHandThumb2
+	C: "OP",1687414640,1724441696, "lockInfluenceWeights"
+	
+	;NodeAttribute::, Model::Human_RightHandIndex1
+	C: "OO",1047522080,1724444016
+	
+	;Model::Human_RightHandIndex2, Model::Human_RightHandIndex1
+	C: "OO",1724446336,1724444016
+	
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_RightHandIndex1
+	C: "OP",1687430864,1724444016, "lockInfluenceWeights"
+	
+	;NodeAttribute::, Model::Human_RightHandIndex2
+	C: "OO",1047518240,1724446336
+	
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_RightHandIndex2
+	C: "OP",1687393632,1724446336, "lockInfluenceWeights"
+	
+	;NodeAttribute::, Model::Human_Neck
+	C: "OO",1047483104,215973952
+	
+	;Model::Human_Head, Model::Human_Neck
+	C: "OO",215976272,215973952
+	
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_Neck
+	C: "OP",1687432736,215973952, "lockInfluenceWeights"
+	
+	;NodeAttribute::, Model::Human_Head
+	C: "OO",1047528416,215976272
+	
+	;AnimCurveNode::lockInfluenceWeights, Model::Human_Head
+	C: "OP",1687333312,215976272, "lockInfluenceWeights"
 	
 	;SubDeformer::, Deformer::
-	C: "OO",220712064,1040729776
+	C: "OO",1069088640,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",220718080,1040729776
+	C: "OO",1069084128,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",220720336,1040729776
+	C: "OO",1069086384,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",220715072,1040729776
+	C: "OO",1069079616,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",220716576,1040729776
+	C: "OO",1069090896,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",1030688352,1040729776
+	C: "OO",1069087888,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",1030686848,1040729776
+	C: "OO",1069089392,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",1030687600,1040729776
+	C: "OO",1069078112,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",1030689856,1040729776
+	C: "OO",220718080,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",1069078864,1040729776
+	C: "OO",220711312,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",1069089392,1040729776
+	C: "OO",220712064,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",1069087888,1040729776
+	C: "OO",220723344,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",1069088640,1040729776
+	C: "OO",220719584,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",1069086384,1040729776
+	C: "OO",220720336,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",1069090896,1040729776
+	C: "OO",220716576,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",1069084128,1040729776
+	C: "OO",220721088,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",1069078112,1040729776
+	C: "OO",220718832,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",1069079616,1040729776
+	C: "OO",220715824,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",967023344,1040729776
+	C: "OO",967024096,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",967024096,1040729776
+	C: "OO",967023344,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",967027856,1040729776
+	C: "OO",967022592,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",967028608,1040729776
+	C: "OO",967028608,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",967022592,1040729776
+	C: "OO",967027856,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",870787024,1040729776
+	C: "OO",870787776,1047495008
 	
 	;SubDeformer::, Deformer::
-	C: "OO",870788528,1040729776
+	C: "OO",870787024,1047495008
 	
-	;Model::Redneck1_Hips, SubDeformer::
-	C: "OO",1019277920,220712064
+	;Model::Human_Hips, SubDeformer::
+	C: "OO",1019303440,1069088640
 	
-	;Model::Redneck1_LeftUpLeg, SubDeformer::
-	C: "OO",1019284880,220718080
+	;Model::Human_LeftUpLeg, SubDeformer::
+	C: "OO",1019247472,1069084128
 	
-	;Model::Redneck1_LeftLeg, SubDeformer::
-	C: "OO",1019280240,220720336
+	;Model::Human_LeftLeg, SubDeformer::
+	C: "OO",1019261392,1069086384
 	
-	;Model::Redneck1_LeftFoot, SubDeformer::
-	C: "OO",1019303440,220715072
+	;Model::Human_LeftFoot, SubDeformer::
+	C: "OO",1019263712,1069079616
 	
-	;Model::Redneck1_LeftToeBase, SubDeformer::
-	C: "OO",1019275600,220716576
+	;Model::Human_LeftToeBase, SubDeformer::
+	C: "OO",1019254432,1069090896
 	
-	;Model::Redneck1_RightUpLeg, SubDeformer::
-	C: "OO",1019296480,1030688352
+	;Model::Human_RightUpLeg, SubDeformer::
+	C: "OO",1019252112,1069087888
 	
-	;Model::Redneck1_RightLeg, SubDeformer::
-	C: "OO",1019252112,1030686848
+	;Model::Human_RightLeg, SubDeformer::
+	C: "OO",830636416,1069089392
 	
-	;Model::Redneck1_RightFoot, SubDeformer::
-	C: "OO",1019261392,1030687600
+	;Model::Human_RightFoot, SubDeformer::
+	C: "OO",830641056,1069078112
 	
-	;Model::Redneck1_RightToeBase, SubDeformer::
-	C: "OO",1019254432,1030689856
+	;Model::Human_RightToeBase, SubDeformer::
+	C: "OO",830643376,220718080
 	
-	;Model::Redneck1_Spine, SubDeformer::
-	C: "OO",1019247472,1069078864
+	;Model::Human_Spine, SubDeformer::
+	C: "OO",830631776,220711312
 	
-	;Model::Redneck1_Spine1, SubDeformer::
-	C: "OO",395493360,1069089392
+	;Model::Human_Spine1, SubDeformer::
+	C: "OO",973294288,220712064
 	
-	;Model::Redneck1_LeftShoulder, SubDeformer::
-	C: "OO",973285008,1069087888
+	;Model::Human_LeftShoulder, SubDeformer::
+	C: "OO",973285008,220723344
 	
-	;Model::Redneck1_LeftArm, SubDeformer::
-	C: "OO",830631776,1069088640
+	;Model::Human_LeftArm, SubDeformer::
+	C: "OO",395493360,220719584
 	
-	;Model::Redneck1_LeftForeArm, SubDeformer::
-	C: "OO",970030368,1069086384
+	;Model::Human_LeftForeArm, SubDeformer::
+	C: "OO",1724416176,220720336
 	
-	;Model::Redneck1_LeftHand, SubDeformer::
-	C: "OO",970032688,1069090896
+	;Model::Human_LeftHand, SubDeformer::
+	C: "OO",1724418496,220716576
 	
-	;Model::Redneck1_LeftHandThumb1, SubDeformer::
-	C: "OO",970035008,1069084128
+	;Model::Human_LeftHandThumb1, SubDeformer::
+	C: "OO",1724420816,220721088
 	
-	;Model::Redneck1_LeftHandIndex1, SubDeformer::
-	C: "OO",970039648,1069078112
+	;Model::Human_LeftHandIndex1, SubDeformer::
+	C: "OO",1724425456,220718832
 	
-	;Model::Redneck1_RightShoulder, SubDeformer::
-	C: "OO",970044288,1069079616
+	;Model::Human_RightShoulder, SubDeformer::
+	C: "OO",1724430096,220715824
 	
-	;Model::Redneck1_RightArm, SubDeformer::
-	C: "OO",970046608,967023344
+	;Model::Human_RightArm, SubDeformer::
+	C: "OO",1724432416,967024096
 	
-	;Model::Redneck1_RightForeArm, SubDeformer::
-	C: "OO",970048928,967024096
+	;Model::Human_RightForeArm, SubDeformer::
+	C: "OO",1724434736,967023344
 	
-	;Model::Redneck1_RightHand, SubDeformer::
-	C: "OO",970051248,967027856
+	;Model::Human_RightHand, SubDeformer::
+	C: "OO",1724437056,967022592
 	
-	;Model::Redneck1_RightHandThumb1, SubDeformer::
-	C: "OO",970053568,967028608
+	;Model::Human_RightHandThumb1, SubDeformer::
+	C: "OO",1724439376,967028608
 	
-	;Model::Redneck1_RightHandIndex1, SubDeformer::
-	C: "OO",970058208,967022592
+	;Model::Human_RightHandIndex1, SubDeformer::
+	C: "OO",1724444016,967027856
 	
-	;Model::Redneck1_Neck, SubDeformer::
-	C: "OO",1646034096,870787024
+	;Model::Human_Neck, SubDeformer::
+	C: "OO",215973952,870787776
 	
-	;Model::Redneck1_Head, SubDeformer::
-	C: "OO",1646036416,870788528
+	;Model::Human_Head, SubDeformer::
+	C: "OO",215976272,870787024
 }
