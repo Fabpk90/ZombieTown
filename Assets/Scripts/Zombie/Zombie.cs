@@ -25,10 +25,12 @@ public class Zombie : MonoBehaviour {
         GetComponent<NavMeshAgent>().enabled = false;
         GetComponent<PlayerInput>().enabled = true;
 
+        GameManager.DeactivateBiteHUD();
+
         gameObject.AddComponent<SphereCollider>().radius = GameManager.config.rangeBite;
         GetComponent<SphereCollider>().isTrigger = true;
 
-        GameManager.DeactivateBiteHUD();
+        
 
        // GetComponent<PlayerInput>().SearchForHumanInRange();
 

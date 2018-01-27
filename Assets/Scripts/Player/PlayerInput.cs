@@ -119,6 +119,9 @@ public class PlayerInput : MonoBehaviour {
 
             humanInRangeBite.Remove(hToContaminate);
 
+            if (humanInRangeBite.Count == 0)
+                GameManager.DeactivateBiteHUD();
+
             hToContaminate.Contaminate();  
         }
     }
