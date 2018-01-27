@@ -9,8 +9,12 @@ public class GameManager : MonoBehaviour {
     {
         public float cooldownPossesion;
         public float cooldownYell;
+        public float cooldownContamitation;
 
         public float rangeYell;
+        public float rangeBite;
+
+        public GameObject biteHUD;
     }
 
     public static List<Zombie> zombiePossesed;
@@ -32,15 +36,20 @@ public class GameManager : MonoBehaviour {
     {
         zombiePossesed.Add(player);
 	}
-	
-	// Update is called once per frame
-	void Update ()
-    {
-		
-	}
+
 
     static public void AddZombie(Zombie zombie)
     {
         zombiePossesed.Add(zombie);
+    }
+
+    static public void ActivateBiteHUD()
+    {
+        config.biteHUD.SetActive(true);
+    }
+
+    static public void DeactivateBiteHUD()
+    {
+        config.biteHUD.SetActive(false);
     }
 }

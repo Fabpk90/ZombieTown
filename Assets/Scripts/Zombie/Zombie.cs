@@ -25,6 +25,13 @@ public class Zombie : MonoBehaviour {
         GetComponent<NavMeshAgent>().enabled = false;
         GetComponent<PlayerInput>().enabled = true;
 
+        gameObject.AddComponent<SphereCollider>().radius = GameManager.config.rangeBite;
+        GetComponent<SphereCollider>().isTrigger = true;
+
+        GameManager.DeactivateBiteHUD();
+
+       // GetComponent<PlayerInput>().SearchForHumanInRange();
+
 
         Color c = GetComponent<MeshRenderer>().material.color;
         c.g = 0;
@@ -38,6 +45,9 @@ public class Zombie : MonoBehaviour {
 
         GetComponent<NavMeshAgent>().enabled = true;
         GetComponent<PlayerInput>().enabled = false;
+        GetComponent<PlayerInput>().humanInRangeBite = new List<Human>();
+
+        DestroyObject(gameObject.GetComponent<SphereCollider>());
 
         Color c = GetComponent<MeshRenderer>().material.color;
         c.g = 1;

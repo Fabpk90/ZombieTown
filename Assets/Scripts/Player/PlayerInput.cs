@@ -9,6 +9,9 @@ public class PlayerInput : MonoBehaviour {
 
     public float lastTimePossesed = 0f;
     public float lastTimeYell = 0f;
+    public float lastTimeContaminated = 0f;
+
+    public List<Human> humanInRangeBite = new List<Human>();
 
 	// Use this for initialization
 	void Start () {
@@ -30,10 +33,16 @@ public class PlayerInput : MonoBehaviour {
         {
             Yell();
         }
+        else if(Time.time >= (lastTimeContaminated + GameManager.config.cooldownContamitation) && Input.GetButtonDown("Contaminate"))
+        {
+            Contaminate();
+        }
 	}
 
     private void Yell()
     {
+        lastTimeYell = Time.time;
+
         RaycastHit[] hits = Physics.SphereCastAll(transform.position, GameManager.config.rangeYell, transform.position);
         Zombie z = null;
         foreach (RaycastHit ray in hits)
@@ -53,22 +62,24 @@ public class PlayerInput : MonoBehaviour {
 
     private void FindNearestZombie()
     {
+        lastTimePossesed = Time.time;
+
         //if there is more zombie than the player
         if(GameManager.zombiePossesed.Count > 1)
         {
-            float nearestDistance = 10000; //TODO: lol, change this mess
+            float nearestDistance = 10000f; //TODO: lol, change this mess
             Zombie nearestZombie = null;
 
             float distance;
 
             foreach(Zombie z in GameManager.zombiePossesed)
             {
-                //not comparing this by himselft lolilol
+                //not comparing this by himself lolilol
                 if(z != GetComponent<Zombie>())
                 {
-                    print(z.transform.name);
+
                     distance = Vector3.Distance(transform.position, z.transform.position);
-                    print("distance " + distance);
+
                     if (nearestDistance > distance)
                     {
                         nearestDistance = distance;
@@ -82,4 +93,76 @@ public class PlayerInput : MonoBehaviour {
             GetComponent<Zombie>().LeavePossesion();
         }
     }
+
+    /// <summary>
+    /// Contaminate the nearest Human in range
+    /// </summary>
+    private void Contaminate()
+    {
+        lastTimeContaminated = Time.time;
+
+        if(humanInRangeBite.Count >= 1)
+        {
+            float nearestDistance = 10000f;
+            Human hToContaminate = null;
+
+            float distance;
+            foreach(Human h in humanInRangeBite)
+            {
+                distance = Vector3.Distance(transform.position, h.transform.position);
+                if (nearestDistance > distance)
+                {
+                    nearestDistance = distance;
+                    hToContaminate = h;
+                }
+            }
+
+            humanInRangeBite.Remove(hToContaminate);
+
+            hToContaminate.Contaminate();
+            GetComponent<Zombie>().LeavePossesion();
+        }
+    }
+
+    /// <summary>
+    /// Used when a human is contaminated, to see who he can contaminated right away
+    /// </summary>
+    public void SearchForHumanInRange()
+    {
+        RaycastHit[] hits = Physics.SphereCastAll(transform.position, GameManager.config.rangeBite, transform.position);
+        Human h = null;
+        foreach (RaycastHit ray in hits)
+        {
+            h = ray.collider.GetComponent<Human>();
+            if (h)
+            {
+                humanInRangeBite.Add(h);
+                GameManager.ActivateBiteHUD();
+            }
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.GetComponent<Human>())
+        {
+            GameManager.ActivateBiteHUD();
+            humanInRangeBite.Add(other.GetComponent<Human>());
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.GetComponent<Human>())
+        {
+            humanInRangeBite.Remove(other.GetComponent<Human>());
+
+            if (humanInRangeBite.Count == 0)
+                GameManager.DeactivateBiteHUD();
+        }
+    }
+
+
+
+
 }
