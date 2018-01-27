@@ -7,6 +7,11 @@ public class Human : MonoBehaviour {
 
     public Ronde rondeObj;
 
+    private Zombie zombieToEscapeFrom;
+
+    //store the time when a zombie is saw
+    private float timeLastEscape = 0f;
+
 	// Use this for initialization
 	void Start () {
         Color c = GetComponent<MeshRenderer>().material.color;
@@ -17,7 +22,19 @@ public class Human : MonoBehaviour {
 
     private void Update()
     {
-        if (!GetComponent<NavMeshAgent>().pathPending)
+        //if a zombie has been seen, escape!
+        if (zombieToEscapeFrom != null)
+        {
+            if (timeLastEscape + GameManager.config.cooldownRunningAway >= Time.time)
+            {
+                Vector3 direction = transform.position - zombieToEscapeFrom.transform.position;
+                GetComponent<NavMeshAgent>().destination += direction.normalized;
+            }
+            else
+                zombieToEscapeFrom = null;
+
+        } // else do your thing
+        else if (!GetComponent<NavMeshAgent>().pathPending) //used for knowing if it has arrived at his destination
         {
             if (GetComponent<NavMeshAgent>().remainingDistance <= GetComponent<NavMeshAgent>().stoppingDistance)
             {
@@ -35,7 +52,20 @@ public class Human : MonoBehaviour {
                 }
             }
         }
+
+        
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.GetComponent<Zombie>())
+        {
+            timeLastEscape = Time.time;
+            zombieToEscapeFrom = other.GetComponent<Zombie>();
+        }
+    }
+
+
 
     public void Contaminate()
     {
