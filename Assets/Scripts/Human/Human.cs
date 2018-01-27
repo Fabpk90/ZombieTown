@@ -14,8 +14,8 @@ public class Human : MonoBehaviour {
 	
     public void Contaminate()
     {
-        gameObject.AddComponent<PlayerInput>();
-        gameObject.AddComponent<Zombie>().TakePossesion();
+        gameObject.AddComponent<PlayerInput>().enabled = false;
+        gameObject.AddComponent<Zombie>();
         Destroy(gameObject.GetComponent<Human>());
     }
 }

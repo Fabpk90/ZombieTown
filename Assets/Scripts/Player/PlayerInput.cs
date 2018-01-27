@@ -119,8 +119,7 @@ public class PlayerInput : MonoBehaviour {
 
             humanInRangeBite.Remove(hToContaminate);
 
-            hToContaminate.Contaminate();
-            GetComponent<Zombie>().LeavePossesion();
+            hToContaminate.Contaminate();  
         }
     }
 
