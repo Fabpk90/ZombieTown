@@ -25,8 +25,6 @@ public class PlayerInput : MonoBehaviour {
         movementVec.x = Input.GetAxis("Horizontal");
         movementVec.z = Input.GetAxis("Vertical");
 
-        print(movementVec);
-
         transform.parent.GetComponent<NavMeshAgent>().destination = transform.position + (movementVec * 2f);
 
         if(Time.time >= (lastTimePossesed + GameManager.config.cooldownPossesion) && Input.GetAxis("ChangeZombie") > 0)
@@ -156,7 +154,7 @@ public class PlayerInput : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        print(other.gameObject);
+      //  print(other.gameObject);
 
         if (other.GetComponent<HumanBehaviour>())
         {

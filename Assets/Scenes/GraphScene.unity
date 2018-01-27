@@ -800,6 +800,64 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8a1eb312f3118c64ca6c9e06456c8bf2, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &451800931
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 9b31c8e525f3b1a4fb2c2a710ebf54e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9b31c8e525f3b1a4fb2c2a710ebf54e2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9b31c8e525f3b1a4fb2c2a710ebf54e2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9b31c8e525f3b1a4fb2c2a710ebf54e2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.48747513
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9b31c8e525f3b1a4fb2c2a710ebf54e2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.4874756
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9b31c8e525f3b1a4fb2c2a710ebf54e2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.51221865
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9b31c8e525f3b1a4fb2c2a710ebf54e2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.5122183
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9b31c8e525f3b1a4fb2c2a710ebf54e2, type: 3}
+      propertyPath: m_RootOrder
+      value: 57
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9b31c8e525f3b1a4fb2c2a710ebf54e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -87.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9b31c8e525f3b1a4fb2c2a710ebf54e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9b31c8e525f3b1a4fb2c2a710ebf54e2, type: 3}
+      propertyPath: m_Name
+      value: car_LOD0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9b31c8e525f3b1a4fb2c2a710ebf54e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9b31c8e525f3b1a4fb2c2a710ebf54e2, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1001 &480125814
 Prefab:
   m_ObjectHideFlags: 0
