@@ -60,6 +60,7 @@ public class Human : MonoBehaviour {
     {
         if(other.GetComponent<Zombie>())
         {
+            print(other.GetComponent<Zombie>().transform.name);
             timeLastEscape = Time.time;
             zombieToEscapeFrom = other.GetComponent<Zombie>();
         }
