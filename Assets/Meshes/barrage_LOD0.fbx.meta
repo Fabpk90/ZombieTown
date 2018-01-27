@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 2b35a46cbf5ab1a4b99a5e595f29d27c
-timeCreated: 1517008021
+guid: 28f9c731712220d4dbbc0d771ba458b8
+timeCreated: 1517068836
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: road_PBR
+    2100000: barrage_PBR
     2300000: //RootNode
     3300000: //RootNode
-    4300000: road_LOD0
+    4300000: barrage_LOD0
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: road_PBR
-    second: {fileID: 2100000, guid: 24dde69b1e875764cb91d6d2f45024bf, type: 2}
+      name: barrage_PBR
+    second: {fileID: 2100000, guid: b331c2b79fc3bd84780ac7bed86bba19, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

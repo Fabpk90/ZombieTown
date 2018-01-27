@@ -1,84 +1,79 @@
 fileFormatVersion: 2
 guid: 3cda56afb9a3f6e40b50bb6ad800f350
-timeCreated: 1517054821
+timeCreated: 1517067924
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Redneck
-    100002: Redneck1_Head
-    100004: Redneck1_Hips
-    100006: Redneck1_LeftArm
-    100008: Redneck1_LeftFoot
-    100010: Redneck1_LeftForeArm
-    100012: Redneck1_LeftHand
-    100014: Redneck1_LeftHandIndex1
-    100016: Redneck1_LeftHandIndex2
-    100018: Redneck1_LeftHandThumb1
-    100020: Redneck1_LeftHandThumb2
-    100022: Redneck1_LeftLeg
-    100024: Redneck1_LeftShoulder
-    100026: Redneck1_LeftToeBase
-    100028: Redneck1_LeftUpLeg
-    100030: Redneck1_Neck
-    100032: Redneck1_Reference
-    100034: Redneck1_RightArm
-    100036: Redneck1_RightFoot
-    100038: Redneck1_RightForeArm
-    100040: Redneck1_RightHand
-    100042: Redneck1_RightHandIndex1
-    100044: Redneck1_RightHandIndex2
-    100046: Redneck1_RightHandThumb1
-    100048: Redneck1_RightHandThumb2
-    100050: Redneck1_RightLeg
-    100052: Redneck1_RightShoulder
-    100054: Redneck1_RightToeBase
-    100056: Redneck1_RightUpLeg
-    100058: Redneck1_Spine
-    100060: Redneck1_Spine1
+    100000: Human_Head
+    100002: Human_Hips
+    100004: Human_LeftArm
+    100006: Human_LeftFoot
+    100008: Human_LeftForeArm
+    100010: Human_LeftHand
+    100012: Human_LeftHandIndex1
+    100014: Human_LeftHandIndex2
+    100016: Human_LeftHandThumb1
+    100018: Human_LeftHandThumb2
+    100020: Human_LeftLeg
+    100022: Human_LeftShoulder
+    100024: Human_LeftToeBase
+    100026: Human_LeftUpLeg
+    100028: Human_Neck
+    100030: Human_Reference
+    100032: Human_RightArm
+    100034: Human_RightFoot
+    100036: Human_RightForeArm
+    100038: Human_RightHand
+    100040: Human_RightHandIndex1
+    100042: Human_RightHandIndex2
+    100044: Human_RightHandThumb1
+    100046: Human_RightHandThumb2
+    100048: Human_RightLeg
+    100050: Human_RightShoulder
+    100052: Human_RightToeBase
+    100054: Human_RightUpLeg
+    100056: Human_Spine
+    100058: Human_Spine1
+    100060: Redneck
     100062: //RootNode
-    400000: Redneck
-    400002: Redneck1_Head
-    400004: Redneck1_Hips
-    400006: Redneck1_LeftArm
-    400008: Redneck1_LeftFoot
-    400010: Redneck1_LeftForeArm
-    400012: Redneck1_LeftHand
-    400014: Redneck1_LeftHandIndex1
-    400016: Redneck1_LeftHandIndex2
-    400018: Redneck1_LeftHandThumb1
-    400020: Redneck1_LeftHandThumb2
-    400022: Redneck1_LeftLeg
-    400024: Redneck1_LeftShoulder
-    400026: Redneck1_LeftToeBase
-    400028: Redneck1_LeftUpLeg
-    400030: Redneck1_Neck
-    400032: Redneck1_Reference
-    400034: Redneck1_RightArm
-    400036: Redneck1_RightFoot
-    400038: Redneck1_RightForeArm
-    400040: Redneck1_RightHand
-    400042: Redneck1_RightHandIndex1
-    400044: Redneck1_RightHandIndex2
-    400046: Redneck1_RightHandThumb1
-    400048: Redneck1_RightHandThumb2
-    400050: Redneck1_RightLeg
-    400052: Redneck1_RightShoulder
-    400054: Redneck1_RightToeBase
-    400056: Redneck1_RightUpLeg
-    400058: Redneck1_Spine
-    400060: Redneck1_Spine1
+    400000: Human_Head
+    400002: Human_Hips
+    400004: Human_LeftArm
+    400006: Human_LeftFoot
+    400008: Human_LeftForeArm
+    400010: Human_LeftHand
+    400012: Human_LeftHandIndex1
+    400014: Human_LeftHandIndex2
+    400016: Human_LeftHandThumb1
+    400018: Human_LeftHandThumb2
+    400020: Human_LeftLeg
+    400022: Human_LeftShoulder
+    400024: Human_LeftToeBase
+    400026: Human_LeftUpLeg
+    400028: Human_Neck
+    400030: Human_Reference
+    400032: Human_RightArm
+    400034: Human_RightFoot
+    400036: Human_RightForeArm
+    400038: Human_RightHand
+    400040: Human_RightHandIndex1
+    400042: Human_RightHandIndex2
+    400044: Human_RightHandThumb1
+    400046: Human_RightHandThumb2
+    400048: Human_RightLeg
+    400050: Human_RightShoulder
+    400052: Human_RightToeBase
+    400054: Human_RightUpLeg
+    400056: Human_Spine
+    400058: Human_Spine1
+    400060: Redneck
     400062: //RootNode
     2100000: M_Redneck
     4300000: Redneck
     9500000: //RootNode
     13700000: Redneck
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: M_Redneck
-    second: {fileID: 2100000, guid: 8f5e532ea29809349ba0b78763418f06, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -133,12 +128,12 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
     human:
-    - boneName: Redneck1_Hips
+    - boneName: Human_Hips
       humanName: Hips
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -146,7 +141,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_LeftUpLeg
+    - boneName: Human_LeftUpLeg
       humanName: LeftUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -154,7 +149,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_RightUpLeg
+    - boneName: Human_RightUpLeg
       humanName: RightUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -162,7 +157,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_LeftLeg
+    - boneName: Human_LeftLeg
       humanName: LeftLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -170,7 +165,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_RightLeg
+    - boneName: Human_RightLeg
       humanName: RightLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -178,7 +173,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_LeftFoot
+    - boneName: Human_LeftFoot
       humanName: LeftFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -186,7 +181,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_RightFoot
+    - boneName: Human_RightFoot
       humanName: RightFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -194,7 +189,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_Spine
+    - boneName: Human_Spine
       humanName: Spine
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -202,15 +197,15 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_Spine1
-      humanName: Chest
+    - boneName: Human_Neck
+      humanName: Neck
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_Head
+    - boneName: Human_Head
       humanName: Head
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -218,7 +213,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_LeftShoulder
+    - boneName: Human_LeftShoulder
       humanName: LeftShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -226,7 +221,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_RightShoulder
+    - boneName: Human_RightShoulder
       humanName: RightShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -234,7 +229,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_LeftArm
+    - boneName: Human_LeftArm
       humanName: LeftUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -242,7 +237,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_RightArm
+    - boneName: Human_RightArm
       humanName: RightUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -250,7 +245,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_LeftForeArm
+    - boneName: Human_LeftForeArm
       humanName: LeftLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -258,7 +253,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_RightForeArm
+    - boneName: Human_RightForeArm
       humanName: RightLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -266,7 +261,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_LeftHand
+    - boneName: Human_LeftHand
       humanName: LeftHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -274,7 +269,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_RightHand
+    - boneName: Human_RightHand
       humanName: RightHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -282,7 +277,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_LeftToeBase
+    - boneName: Human_LeftToeBase
       humanName: LeftToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -290,7 +285,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Redneck1_RightToeBase
+    - boneName: Human_RightToeBase
       humanName: RightToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -304,159 +299,159 @@ ModelImporter:
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck
+    - name: Human_Reference
       parentName: SK_Redneck(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_Reference
-      parentName: SK_Redneck(Clone)
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_Hips
-      parentName: Redneck1_Reference
+    - name: Human_Hips
+      parentName: Human_Reference
       position: {x: 1.459217e-17, y: 1, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_LeftUpLeg
-      parentName: Redneck1_Hips
+    - name: Human_LeftUpLeg
+      parentName: Human_Hips
       position: {x: -0.08910001, y: -0.09890777, z: 0.03319047}
       rotation: {x: -0.000012194752, y: 0.0000007141834, z: 8.709289e-12, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_LeftLeg
-      parentName: Redneck1_LeftUpLeg
+    - name: Human_LeftLeg
+      parentName: Human_LeftUpLeg
       position: {x: -0.0100802975, y: -0.3772975, z: -0.03319047}
       rotation: {x: 0.00002389961, y: -0.0000017600552, z: 4.2064633e-11, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_LeftFoot
-      parentName: Redneck1_LeftLeg
+    - name: Human_LeftFoot
+      parentName: Human_LeftLeg
       position: {x: -0.035281308, y: -0.39046523, z: -0.039225105}
       rotation: {x: -0.000011704859, y: 0.0000010458716, z: 1.22417805e-11, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_LeftToeBase
-      parentName: Redneck1_LeftFoot
+    - name: Human_LeftToeBase
+      parentName: Human_LeftFoot
       position: {x: -0.04032147, y: -0.09634481, z: 0.11144332}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_RightUpLeg
-      parentName: Redneck1_Hips
+    - name: Human_RightUpLeg
+      parentName: Human_Hips
       position: {x: 0.08910001, y: -0.09890777, z: 0.03319047}
       rotation: {x: -0.000012194752, y: -0.0000007141834, z: -8.709289e-12, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_RightLeg
-      parentName: Redneck1_RightUpLeg
+    - name: Human_RightLeg
+      parentName: Human_RightUpLeg
       position: {x: 0.0100802975, y: -0.3772975, z: -0.03319047}
       rotation: {x: 0.000023899613, y: 0.0000017600552, z: -4.2064636e-11, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_RightFoot
-      parentName: Redneck1_RightLeg
+    - name: Human_RightFoot
+      parentName: Human_RightLeg
       position: {x: 0.035281308, y: -0.39046523, z: -0.039225105}
       rotation: {x: -0.00001170486, y: -0.0000010458717, z: -1.2241783e-11, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_RightToeBase
-      parentName: Redneck1_RightFoot
+    - name: Human_RightToeBase
+      parentName: Human_RightFoot
       position: {x: 0.04032147, y: -0.09634481, z: 0.11144332}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_Spine
-      parentName: Redneck1_Hips
+    - name: Human_Spine
+      parentName: Human_Hips
       position: {x: 3.5511413e-17, y: 0.14785993, z: 0.012069262}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_Spine1
-      parentName: Redneck1_Spine
-      position: {x: 3.332122e-17, y: 0.17420399, z: -0.012069262}
+    - name: Human_Spine1
+      parentName: Human_Spine
+      position: {x: 4.2321515e-17, y: 0.17420399, z: -0.012069262}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_LeftShoulder
-      parentName: Redneck1_Spine1
+    - name: Human_LeftShoulder
+      parentName: Human_Spine1
       position: {x: -0.11039278, y: 0.093373656, z: -0.01893453}
       rotation: {x: -0, y: 0.028412687, z: 0.024664039, w: 0.99929196}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_LeftArm
-      parentName: Redneck1_LeftShoulder
+    - name: Human_LeftArm
+      parentName: Human_LeftShoulder
       position: {x: -0.06549306, y: 0.018373609, z: -0.021166187}
       rotation: {x: 0.0036522516, y: -0.011527125, z: -0.07414122, w: 0.9971745}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_LeftForeArm
-      parentName: Redneck1_LeftArm
+    - name: Human_LeftForeArm
+      parentName: Human_LeftArm
       position: {x: -0.22909866, y: -0.0403471, z: -0.005012594}
       rotation: {x: 0.008396846, y: -0.09514489, z: 0.032168046, w: 0.99490815}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_LeftHand
-      parentName: Redneck1_LeftForeArm
+    - name: Human_LeftHand
+      parentName: Human_LeftForeArm
       position: {x: -0.22772583, y: -0.002302885, z: 0.05263219}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_LeftHandThumb1
-      parentName: Redneck1_LeftHand
+    - name: Human_LeftHandThumb1
+      parentName: Human_LeftHand
       position: {x: -0.041668475, y: -0.025044084, z: 0.05700732}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_LeftHandThumb2
-      parentName: Redneck1_LeftHandThumb1
+    - name: Human_LeftHandThumb2
+      parentName: Human_LeftHandThumb1
       position: {x: -0.06697166, y: -0.049705982, z: 0.0760016}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_LeftHandIndex1
-      parentName: Redneck1_LeftHand
+    - name: Human_LeftHandIndex1
+      parentName: Human_LeftHand
       position: {x: -0.10083991, y: 0.0076971054, z: 0.016038697}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_LeftHandIndex2
-      parentName: Redneck1_LeftHandIndex1
+    - name: Human_LeftHandIndex2
+      parentName: Human_LeftHandIndex1
       position: {x: -0.14062625, y: 0.0018997192, z: 0.022196058}
       rotation: {x: 0, y: -0.000005316577, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_RightShoulder
-      parentName: Redneck1_Spine1
+    - name: Human_RightShoulder
+      parentName: Human_Spine1
       position: {x: 0.11039278, y: 0.093373656, z: -0.01893453}
       rotation: {x: -0, y: -0.028412687, z: -0.024664039, w: 0.99929196}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_RightArm
-      parentName: Redneck1_RightShoulder
+    - name: Human_RightArm
+      parentName: Human_RightShoulder
       position: {x: 0.06549306, y: 0.018373609, z: -0.021166187}
       rotation: {x: 0.0036522516, y: 0.011527125, z: 0.07414122, w: 0.9971745}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_RightForeArm
-      parentName: Redneck1_RightArm
+    - name: Human_RightForeArm
+      parentName: Human_RightArm
       position: {x: 0.22909866, y: -0.0403471, z: -0.005012594}
       rotation: {x: 0.008396846, y: 0.09514489, z: -0.032168046, w: 0.99490815}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_RightHand
-      parentName: Redneck1_RightForeArm
+    - name: Human_RightHand
+      parentName: Human_RightForeArm
       position: {x: 0.22772583, y: -0.002302885, z: 0.05263219}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_RightHandThumb1
-      parentName: Redneck1_RightHand
+    - name: Human_RightHandThumb1
+      parentName: Human_RightHand
       position: {x: 0.041668475, y: -0.025044084, z: 0.05700732}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_RightHandThumb2
-      parentName: Redneck1_RightHandThumb1
+    - name: Human_RightHandThumb2
+      parentName: Human_RightHandThumb1
       position: {x: 0.06697166, y: -0.049705982, z: 0.0760016}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_RightHandIndex1
-      parentName: Redneck1_RightHand
+    - name: Human_RightHandIndex1
+      parentName: Human_RightHand
       position: {x: 0.10083991, y: 0.0076971054, z: 0.016038697}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_RightHandIndex2
-      parentName: Redneck1_RightHandIndex1
+    - name: Human_RightHandIndex2
+      parentName: Human_RightHandIndex1
       position: {x: 0.14062625, y: 0.0018997192, z: 0.022196058}
       rotation: {x: 0, y: -0.0000053167487, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_Neck
-      parentName: Redneck1_Spine1
-      position: {x: 3.2651267e-17, y: 0.17420411, z: -0.009051947}
+    - name: Human_Neck
+      parentName: Human_Spine1
+      position: {x: 1.00845665e-16, y: 0.17420411, z: -0.009051947}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Redneck1_Head
-      parentName: Redneck1_Neck
-      position: {x: 1.2098955e-16, y: 0.15373194, z: 0.009051947}
+    - name: Human_Head
+      parentName: Human_Neck
+      position: {x: 1.877528e-16, y: 0.15373194, z: 0.009051947}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Redneck
+      parentName: SK_Redneck(Clone)
+      position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
