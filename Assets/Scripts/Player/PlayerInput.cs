@@ -143,11 +143,13 @@ public class PlayerInput : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.GetComponent<Human>())
+        if (other.GetComponent<Human>())
         {
             GameManager.ActivateBiteHUD();
             humanInRangeBite.Add(other.GetComponent<Human>());
         }
+        else if (humanInRangeBite.Count == 0)
+            GameManager.DeactivateBiteHUD();
     }
 
     private void OnTriggerExit(Collider other)
