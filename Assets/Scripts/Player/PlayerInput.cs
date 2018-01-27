@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PlayerInput : MonoBehaviour {
 
     private Vector3 movementVec;
 
     public float lastTimePossesed = 0f;
+    public float lastTimeYell = 0f;
 
 	// Use this for initialization
 	void Start () {
@@ -20,11 +22,34 @@ public class PlayerInput : MonoBehaviour {
 
         transform.position += movementVec;
 
-        if(Time.time >= (lastTimePossesed + GameManager.cooldownPossesionCode) && Input.GetAxis("ChangeZombie") > 0)
+        if(Time.time >= (lastTimePossesed + GameManager.config.cooldownPossesion) && Input.GetAxis("ChangeZombie") > 0)
         {
             FindNearestZombie();
         }
+        else if(Time.time >= (lastTimeYell + GameManager.config.cooldownYell) && Input.GetButtonDown("Submit"))
+        {
+            Yell();
+        }
 	}
+
+    private void Yell()
+    {
+        RaycastHit[] hits = Physics.SphereCastAll(transform.position, GameManager.config.rangeYell, transform.position);
+        Zombie z = null;
+        foreach (RaycastHit ray in hits)
+        {
+            z = ray.collider.GetComponent<Zombie>();
+            if (z)
+            {
+                //not calling himself
+                if(z != GetComponent<Zombie>())
+                {
+                    z.GetComponent<NavMeshAgent>().destination = transform.position;
+                }
+                
+            }
+        }
+    }
 
     private void FindNearestZombie()
     {
