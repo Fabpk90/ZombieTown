@@ -30,22 +30,28 @@ public class GameManager : MonoBehaviour {
     [System.Serializable]
     public class ConfigClass
     {
+        [Range(1, 20)]
         public float cooldownPossesion;
+        [Range(1, 20)]
         public float cooldownYell;
+        [Range(1, 20)]
         public float cooldownContamitation;
 
+        [Range(1, 20)]
         public float cooldownRonde;
 
+        [Range(1, 20)]
         public float cooldownRunningAway;
-
+        [Range(1, 20)]
         public float rangeYell;
+        [Range(1, 20)]
         public float rangeBite;
 
         public int scoreContaHuman;
         public int scoreContaHumanArme;
 
         public int scoreMulti = 1;
-
+        [Range(1, 900)]
         public float timeGame;
 
         public GameObject biteHUD;
@@ -59,7 +65,7 @@ public class GameManager : MonoBehaviour {
 
     public ConfigClass configEditor;
 
-    public Zombie player;
+    public GameObject player;
 
     public TextMeshProUGUI ScoreUI;
 
@@ -78,7 +84,7 @@ public class GameManager : MonoBehaviour {
     void Start ()
     {
         if (player != null)
-            zombiePossesed.Add(player);
+            zombiePossesed.Add(player.GetComponentInChildren<Zombie>());
 	}
 
     private void Update()

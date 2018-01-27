@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 114520414471988420}
-  - {fileID: 114529002915585900}
+  - {fileID: 114579643254142662}
+  - {fileID: 114367402984405302}
   EditorEvents:
-  - {fileID: 114842082457287582}
-  MasterBankRef: {fileID: 114529002915585900}
-  StringsBankRef: {fileID: 114520414471988420}
-  stringsBankWriteTime: 636526683824961029
+  - {fileID: 114905570692511244}
+  MasterBankRef: {fileID: 114367402984405302}
+  StringsBankRef: {fileID: 114579643254142662}
+  stringsBankWriteTime: 636526747040937963
   cacheVersion: 2
---- !u!114 &114392227507472326
+--- !u!114 &114367402984405302
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -38,8 +38,8 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 38272
-  Exists: 0
---- !u!114 &114520414471988420
+  Exists: 1
+--- !u!114 &114579643254142662
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -51,50 +51,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: Assets\FMOD\zombie_town\Build\Desktop\Master Bank.strings.bank
-  lastModified: 636526683824961029
+  lastModified: 636526747040937963
   LoadResult: 0
   FileSizes:
   - Name: Desktop
     Value: 730
   Exists: 1
---- !u!114 &114529002915585900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: C:\UnityProject\GGJ2018\ZombieTown\Assets\FMOD\zombie_town\Build\Desktop\Master
-    Bank.bank
-  lastModified: 636526683824460256
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 38272
-  Exists: 1
---- !u!114 &114629075640709946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: D:\ZombieTown\ZombieTown\Assets\FMOD\zombie_town\Build\Desktop\Master Bank.bank
-  lastModified: 636526734912493977
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 38272
-  Exists: 0
---- !u!114 &114842082457287582
+--- !u!114 &114905570692511244
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -108,7 +71,7 @@ MonoBehaviour:
   Path: event:/SFX/sfx_zombie_call
   guid: 47134a0359f20f4eb7938a6c33f3436f
   Banks:
-  - {fileID: 114529002915585900}
+  - {fileID: 114367402984405302}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
