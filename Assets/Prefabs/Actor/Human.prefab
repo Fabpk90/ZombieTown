@@ -972,7 +972,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 0f5659e65b878464ea0c8f56c352ec8e, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -989,9 +989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rondeObj:
-    ronde:
-    - {fileID: 0}
-    - {fileID: 0}
+    ronde: []
     indexRonde: 0
     timeSinceLastRonde: 0
 --- !u!136 &136355242099273478
