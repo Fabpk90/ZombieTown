@@ -900,6 +900,10 @@ Prefab:
       propertyPath: m_CullingMode
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 3cda56afb9a3f6e40b50bb6ad800f350, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f5e532ea29809349ba0b78763418f06, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3cda56afb9a3f6e40b50bb6ad800f350, type: 3}
   m_IsPrefabParent: 0
