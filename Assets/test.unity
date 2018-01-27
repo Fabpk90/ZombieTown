@@ -532,7 +532,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4807013888422998, guid: 27117b4211bcb5448b83779438d1bb43, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.3
+      value: 1.67
       objectReference: {fileID: 0}
     - target: {fileID: 4807013888422998, guid: 27117b4211bcb5448b83779438d1bb43, type: 2}
       propertyPath: m_LocalPosition.z
@@ -733,8 +733,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   configEditor:
-    cooldownPossesion: 0
-    cooldownYell: 0
+    cooldownPossesion: 1
+    cooldownYell: 2
     rangeYell: 20
   player: {fileID: 1152980030}
 --- !u!4 &1493186300
