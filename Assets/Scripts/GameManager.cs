@@ -65,7 +65,7 @@ public class GameManager : MonoBehaviour {
 
     public ConfigClass configEditor;
 
-    public Zombie player;
+    public GameObject player;
 
     public TextMeshProUGUI ScoreUI;
 
@@ -84,7 +84,7 @@ public class GameManager : MonoBehaviour {
     void Start ()
     {
         if (player != null)
-            zombiePossesed.Add(player);
+            zombiePossesed.Add(player.GetComponentInChildren<Zombie>());
 	}
 
     private void Update()

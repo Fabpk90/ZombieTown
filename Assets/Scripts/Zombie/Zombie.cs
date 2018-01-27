@@ -17,28 +17,25 @@ public class Zombie : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if(!GetComponent<PlayerInput>().enabled)
+        if (!transform.parent.GetComponent<NavMeshAgent>().pathPending) //used for knowing if it has arrived at his destination
         {
-            if (!GetComponent<NavMeshAgent>().pathPending)
+            if (transform.parent.GetComponent<NavMeshAgent>().remainingDistance <= transform.parent.GetComponent<NavMeshAgent>().stoppingDistance)
             {
-                if (GetComponent<NavMeshAgent>().remainingDistance <= GetComponent<NavMeshAgent>().stoppingDistance)
+                if (!transform.parent.GetComponent<NavMeshAgent>().hasPath || transform.parent.GetComponent<NavMeshAgent>().velocity.sqrMagnitude == 0f)
                 {
-                    if (!GetComponent<NavMeshAgent>().hasPath || GetComponent<NavMeshAgent>().velocity.sqrMagnitude == 0f)
-                    {
-                        rondeObj.timeSinceLastRonde += Time.deltaTime;
+                    rondeObj.timeSinceLastRonde += Time.deltaTime;
 
-                        if (rondeObj.timeSinceLastRonde >= GameManager.config.cooldownRonde)
-                        {
-                            rondeObj.timeSinceLastRonde = 0f;
-                            Vector3 v = rondeObj.nextPointRonde();
-                            if (v != Vector3.zero)
-                                GetComponent<NavMeshAgent>().destination = v;
-                        }
+                    if (rondeObj.timeSinceLastRonde >= GameManager.config.cooldownRonde)
+                    {
+                        rondeObj.timeSinceLastRonde = 0f;
+                        Vector3 v = rondeObj.nextPointRonde();
+                        if (v != Vector3.zero)
+                            transform.parent.GetComponent<NavMeshAgent>().destination = v;
                     }
                 }
             }
         }
-        
+
     }
 
     public void TakePossesion()
@@ -63,7 +60,7 @@ public class Zombie : MonoBehaviour {
     public void LeavePossesion()
     {
         GetComponent<PlayerInput>().enabled = false;
-        GetComponent<PlayerInput>().humanInRangeBite = new List<Human>();
+        GetComponent<PlayerInput>().humanInRangeBite = new List<HumanBehaviour>();
 
         DestroyObject(gameObject.GetComponent<SphereCollider>());
 
