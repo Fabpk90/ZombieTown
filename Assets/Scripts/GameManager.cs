@@ -36,9 +36,10 @@ public class GameManager : MonoBehaviour {
 
         public float cooldownRonde;
 
+        public float cooldownRunningAway;
+
         public float rangeYell;
         public float rangeBite;
-
 
         public int scoreContaHuman;
         public int scoreContaHumanArme;
@@ -94,7 +95,6 @@ public class GameManager : MonoBehaviour {
         }
             
     }
-
 
     static public void AddZombie(Zombie zombie)
     {
