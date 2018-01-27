@@ -45,6 +45,7 @@ public class GameManager : MonoBehaviour {
         public int scoreMulti = 1;
 
         public GameObject biteHUD;
+        public GameObject Camera;
     }
 
     public static int Score;
