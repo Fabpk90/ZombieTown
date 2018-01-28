@@ -7,9 +7,22 @@ using UnityEngine.SceneManagement;
 public class EndGameManager : MonoBehaviour {
 
     public TextMeshProUGUI ScoreUI;
+
+    FMOD.Studio.EventInstance musicLevel;
+    FMOD.Studio.EventInstance musicbgm;
     // Use this for initialization
     void Start () {
         ScoreUI.text = "Score: " + GameManager.Score;
+
+        if (GameManager.isDead)
+            musicLevel = FMODUnity.RuntimeManager.CreateInstance("event:/MUSIC/Jingle_loose");
+        else
+            musicLevel = FMODUnity.RuntimeManager.CreateInstance("event:/MUSIC/Jingle_win");
+
+        musicbgm = FMODUnity.RuntimeManager.CreateInstance("event:/AMBIANCE/amb_zombie");
+
+        musicLevel.start();
+        musicbgm.start();
     }
 	
 
