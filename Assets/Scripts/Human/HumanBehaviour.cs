@@ -80,11 +80,14 @@ public class HumanBehaviour : MonoBehaviour {
         //destroying sight
         foreach (CapsuleCollider sp in gameObject.GetComponents<CapsuleCollider>())
         {
+            print(sp.isTrigger);
             if (sp.isTrigger)
                 DestroyObject(sp);
         }
-
-        Destroy(gameObject.GetComponent<HumanBehaviour>());
+        if (GetComponent<HumanPussy>())
+            Destroy(gameObject.GetComponent<HumanPussy>());
+        else
+            Destroy(gameObject.GetComponent<HumanRedneck>());
     }
 
 }

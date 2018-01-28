@@ -39,6 +39,9 @@ public class PlayerInput : MonoBehaviour {
         {
             Contaminate();
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
 	}
 
     private void Yell()

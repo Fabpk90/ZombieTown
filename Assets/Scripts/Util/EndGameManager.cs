@@ -10,6 +10,7 @@ public class EndGameManager : MonoBehaviour {
 
     FMOD.Studio.EventInstance musicLevel;
     FMOD.Studio.EventInstance musicbgm;
+
     // Use this for initialization
     void Start () {
         ScoreUI.text = "Score: " + GameManager.Score;
