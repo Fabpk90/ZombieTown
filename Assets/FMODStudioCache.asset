@@ -12,97 +12,41 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-<<<<<<< HEAD
-  - {fileID: 114053693645493618}
-  - {fileID: 114816974961420726}
+  - {fileID: 114289779474921396}
+  - {fileID: 114320200000666980}
   EditorEvents:
-  - {fileID: 114509644626701174}
-  - {fileID: 114518762463720948}
-  - {fileID: 114638052213031816}
-  - {fileID: 114458561717946092}
-  - {fileID: 114647016589882060}
-  - {fileID: 114658553692379666}
-  - {fileID: 114374101579654352}
-  - {fileID: 114240706332317610}
-  - {fileID: 114064679321666946}
-  - {fileID: 114315055604875454}
-  - {fileID: 114825661144051968}
-  - {fileID: 114225774166347234}
-  - {fileID: 114995933056741026}
-  - {fileID: 114614065525647016}
-  - {fileID: 114516597869670832}
-  - {fileID: 114057047995885974}
-  - {fileID: 114887447160067944}
-  - {fileID: 114764834372273366}
-  - {fileID: 114831259918680314}
-  - {fileID: 114245523478490144}
-  - {fileID: 114116293113944154}
-  - {fileID: 114316517234892398}
-  - {fileID: 114918935260264680}
-  - {fileID: 114378297290054510}
-  - {fileID: 114426946442758550}
-  - {fileID: 114224422266701054}
-  - {fileID: 114613528183451156}
-  MasterBankRef: {fileID: 114816974961420726}
-  StringsBankRef: {fileID: 114053693645493618}
-  stringsBankWriteTime: 636527441589429169
+  - {fileID: 114973283386535332}
+  - {fileID: 114944550410864924}
+  - {fileID: 114563467889054262}
+  - {fileID: 114080347653184370}
+  - {fileID: 114329160778594098}
+  - {fileID: 114249221717350830}
+  - {fileID: 114259009986361474}
+  - {fileID: 114639042679704206}
+  - {fileID: 114045321048956388}
+  - {fileID: 114237199933196146}
+  - {fileID: 114105987596429524}
+  - {fileID: 114931214677279954}
+  - {fileID: 114253100727810032}
+  - {fileID: 114292245542096010}
+  - {fileID: 114371242804117014}
+  - {fileID: 114996474479046932}
+  - {fileID: 114182821628049738}
+  - {fileID: 114019201919190242}
+  - {fileID: 114424659065418236}
+  - {fileID: 114305502537286528}
+  - {fileID: 114612171685798984}
+  - {fileID: 114372783144573428}
+  - {fileID: 114197981752728186}
+  - {fileID: 114081137220277110}
+  - {fileID: 114824424318299650}
+  - {fileID: 114546227561136118}
+  - {fileID: 114638820535527220}
+  MasterBankRef: {fileID: 114320200000666980}
+  StringsBankRef: {fileID: 114289779474921396}
+  stringsBankWriteTime: 636527331832304077
   cacheVersion: 2
---- !u!114 &114053693645493618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: Assets\FMOD\zombie_town\Build\Desktop\Master Bank.strings.bank
-  lastModified: 636527441589429169
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 1976
-  Exists: 1
---- !u!114 &114057047995885974
-=======
-  - {fileID: 114601787314816798}
-  - {fileID: 114792275649137936}
-  EditorEvents:
-  - {fileID: 114281444672579786}
-  - {fileID: 114983419319695316}
-  - {fileID: 114721522395030882}
-  - {fileID: 114131555688653644}
-  - {fileID: 114435502055888568}
-  - {fileID: 114781357739583934}
-  - {fileID: 114482234008175902}
-  - {fileID: 114770335199955950}
-  - {fileID: 114751298246562816}
-  - {fileID: 114253926481181576}
-  - {fileID: 114615017544061942}
-  - {fileID: 114514956840591552}
-  - {fileID: 114132223874216272}
-  - {fileID: 114385993463866196}
-  - {fileID: 114549297385218832}
-  - {fileID: 114696527761096172}
-  - {fileID: 114764801916497124}
-  - {fileID: 114822861918057656}
-  - {fileID: 114303744498313228}
-  - {fileID: 114694669716083202}
-  - {fileID: 114071543321703704}
-  - {fileID: 114191001916011734}
-  - {fileID: 114726552600690876}
-  - {fileID: 114966651768942808}
-  - {fileID: 114686339549964696}
-  - {fileID: 114294654398961228}
-  - {fileID: 114963336975762200}
-  MasterBankRef: {fileID: 114792275649137936}
-  StringsBankRef: {fileID: 114601787314816798}
-  stringsBankWriteTime: 636527428445154510
-  cacheVersion: 2
---- !u!114 &114071543321703704
->>>>>>> master
+--- !u!114 &114019201919190242
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -113,19 +57,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_door
-  guid: 9d769aa79c62fb48bc2a1c367a6071a1
+  Path: event:/SFX/sfx_contamination
+  guid: a1c2184a1debc84590069d5115e8a579
   Banks:
-  - {fileID: 114816974961420726}
+  - {fileID: 114320200000666980}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1090
---- !u!114 &114064679321666946
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2250
+--- !u!114 &114045321048956388
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -139,27 +82,15 @@ MonoBehaviour:
   Path: event:/SFX/sfx_zombie_call
   guid: 47134a0359f20f4eb7938a6c33f3436f
   Banks:
-  - {fileID: 114816974961420726}
+  - {fileID: 114320200000666980}
   IsStream: 0
-=======
-  Path: event:/SFX/sfx_idle_zombie
-  guid: b2826418cc8df047a042a9fe565c1c30
-  Banks:
-  - {fileID: 114792275649137936}
-  IsStream: 1
->>>>>>> master
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-<<<<<<< HEAD
   Length: 3954
---- !u!114 &114116293113944154
-=======
-  Length: 27256
---- !u!114 &114131555688653644
->>>>>>> master
+--- !u!114 &114080347653184370
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -170,24 +101,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_idle_zombie
-  guid: b2826418cc8df047a042a9fe565c1c30
-  Banks:
-  - {fileID: 114816974961420726}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 27256
---- !u!114 &114224422266701054
-=======
   Path: event:/SFX/sfx_score_contamination_ui
   guid: 311a2553e1b5894f984885e8a241c803
   Banks:
-  - {fileID: 114792275649137936}
+  - {fileID: 114320200000666980}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -195,8 +112,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1227
---- !u!114 &114132223874216272
->>>>>>> master
+--- !u!114 &114081137220277110
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -207,263 +123,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_validation_ui
-  guid: f8d0e315d24fc940ae7a1387a0bd0e53
-  Banks:
-  - {fileID: 114816974961420726}
-=======
-  Path: event:/SFX/sfx_cool_down
-  guid: 776e1308e3774944927ba05978a7aa4f
-  Banks:
-  - {fileID: 114792275649137936}
->>>>>>> master
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-<<<<<<< HEAD
-  Length: 2000
---- !u!114 &114225774166347234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/sfx_footsteps_human
-  guid: 73d4036ee78f18468ebc482c459ab32d
-  Banks:
-  - {fileID: 114816974961420726}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2500
---- !u!114 &114240706332317610
-=======
-  Length: 750
---- !u!114 &114191001916011734
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/MUSIC/Level_mus
-  guid: 3d6b3f7450d30b43ab2cfd82b87fed4e
-  Banks:
-  - {fileID: 114816974961420726}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 230000
---- !u!114 &114245523478490144
-=======
-  Path: event:/SFX/sfx_footsteps_zombie
-  guid: c09e339481500b4dad2efe37cc921432
-  Banks:
-  - {fileID: 114792275649137936}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2000
---- !u!114 &114253926481181576
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_scream_human
-  guid: af94fc4e0af8cf418530409141c10e33
-  Banks:
-  - {fileID: 114816974961420726}
-=======
-  Path: event:/MUSIC/Jingle_win
-  guid: 615bffa7df71cc46ba1092cd3c26f64d
-  Banks:
-  - {fileID: 114792275649137936}
->>>>>>> master
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-<<<<<<< HEAD
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2000
---- !u!114 &114315055604875454
-=======
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 6000
---- !u!114 &114281444672579786
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/MUSIC/Jingle_win
-  guid: 615bffa7df71cc46ba1092cd3c26f64d
-  Banks:
-  - {fileID: 114816974961420726}
-=======
-  Path: event:/SFX/sfx_youloose
-  guid: 04ab95cd07ed014eb662c473febbc0e5
-  Banks:
-  - {fileID: 114792275649137936}
->>>>>>> master
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-<<<<<<< HEAD
-  Length: 6000
---- !u!114 &114316517234892398
-=======
-  Length: 7008
---- !u!114 &114294654398961228
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_footsteps_zombie
-  guid: c09e339481500b4dad2efe37cc921432
-  Banks:
-  - {fileID: 114816974961420726}
-=======
-  Path: event:/SFX/sfx_validation_ui
-  guid: f8d0e315d24fc940ae7a1387a0bd0e53
-  Banks:
-  - {fileID: 114792275649137936}
->>>>>>> master
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-<<<<<<< HEAD
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2000
---- !u!114 &114374101579654352
-=======
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &114303744498313228
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_shot
-  guid: 3537db7fc3bed7469a5b82bae3d4bf85
-  Banks:
-  - {fileID: 114816974961420726}
-=======
-  Path: event:/SFX/sfx_house_contamination
-  guid: aa70cea568d1254ca6b246ba6a025b86
-  Banks:
-  - {fileID: 114792275649137936}
->>>>>>> master
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-<<<<<<< HEAD
-  Length: 3453
---- !u!114 &114378297290054510
-=======
-  Length: 3272
---- !u!114 &114385993463866196
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
   Path: event:/MUSIC/Jingle_loose
   guid: df7a945114076d4998106d28c51bfb87
   Banks:
-  - {fileID: 114816974961420726}
-=======
-  Path: event:/SFX/sfx_ui_round_1
-  guid: 83fc558b4db25645b067e9ba38ec590d
-  Banks:
-  - {fileID: 114792275649137936}
->>>>>>> master
+  - {fileID: 114320200000666980}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-<<<<<<< HEAD
   Length: 8727
---- !u!114 &114426946442758550
-=======
-  Length: 3504
---- !u!114 &114435502055888568
->>>>>>> master
+--- !u!114 &114105987596429524
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -474,31 +145,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_score_multiplicateur
-  guid: eb3fe6aa6c2e4b408b587b9ba46f1dde
+  Path: event:/SFX/sfx_idle_human
+  guid: 6d4ac3bde6fdf54d8dccf88cd52821ac
   Banks:
-  - {fileID: 114816974961420726}
-  IsStream: 0
-=======
-  Path: event:/MUSIC/Level_1
-  guid: 312ec7ef76920c44a93ce324a9ecbeec
-  Banks:
-  - {fileID: 114792275649137936}
+  - {fileID: 114320200000666980}
   IsStream: 1
->>>>>>> master
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 36601
+--- !u!114 &114182821628049738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/MUSIC/Level_2
+  guid: a0f7c8fb7c9c4c4d9823ecc8cf6df533
+  Banks:
+  - {fileID: 114320200000666980}
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-<<<<<<< HEAD
-  Length: 528
---- !u!114 &114458561717946092
-=======
-  Length: 227955
---- !u!114 &114482234008175902
->>>>>>> master
+  Length: 226500
+--- !u!114 &114197981752728186
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -509,32 +189,125 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_score_contamination_ui
-  guid: 311a2553e1b5894f984885e8a241c803
+  Path: event:/AMBIANCE/amb_city_zombie
+  guid: d2d116f2cebb9a42902e027f61c6933a
   Banks:
-  - {fileID: 114816974961420726}
-=======
+  - {fileID: 114320200000666980}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 114701702162110106}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 227846
+--- !u!114 &114237199933196146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/MUSIC/Jingle_win
+  guid: 615bffa7df71cc46ba1092cd3c26f64d
+  Banks:
+  - {fileID: 114320200000666980}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6000
+--- !u!114 &114249221717350830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/sfx_youwin
+  guid: 33167b7423c3254cb4f70cf6135a1ec8
+  Banks:
+  - {fileID: 114320200000666980}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2336
+--- !u!114 &114253100727810032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/sfx_cool_down
+  guid: 776e1308e3774944927ba05978a7aa4f
+  Banks:
+  - {fileID: 114320200000666980}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 750
+--- !u!114 &114259009986361474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   Path: event:/SFX/sfx_shot
   guid: 3537db7fc3bed7469a5b82bae3d4bf85
   Banks:
-  - {fileID: 114792275649137936}
->>>>>>> master
+  - {fileID: 114320200000666980}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-<<<<<<< HEAD
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1227
---- !u!114 &114509644626701174
-=======
   MinDistance: 1
   MaxDistance: 20
   Length: 3453
---- !u!114 &114514956840591552
->>>>>>> master
+--- !u!114 &114289779474921396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: Assets\FMOD\zombie_town\Build\Desktop\Master Bank.strings.bank
+  lastModified: 636527331832304077
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1976
+  Exists: 1
+--- !u!114 &114292245542096010
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -545,29 +318,81 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: event:/SFX/sfx_youloose
-  guid: 04ab95cd07ed014eb662c473febbc0e5
+  Path: event:/SFX/sfx_ui_round_1
+  guid: 83fc558b4db25645b067e9ba38ec590d
   Banks:
-<<<<<<< HEAD
-  - {fileID: 114816974961420726}
-=======
-  - {fileID: 114792275649137936}
->>>>>>> master
+  - {fileID: 114320200000666980}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
-<<<<<<< HEAD
   MinDistance: 0
   MaxDistance: 0
-  Length: 7008
---- !u!114 &114516597869670832
-=======
+  Length: 3504
+--- !u!114 &114305502537286528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/sfx_scream_human
+  guid: af94fc4e0af8cf418530409141c10e33
+  Banks:
+  - {fileID: 114320200000666980}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2500
---- !u!114 &114549297385218832
->>>>>>> master
+  Length: 2000
+--- !u!114 &114320200000666980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Linko\Documents\ZombieTown\Assets\FMOD\zombie_town\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636527331832223880
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 15244544
+  Exists: 1
+--- !u!114 &114329160778594098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/MUSIC/Level_1
+  guid: 312ec7ef76920c44a93ce324a9ecbeec
+  Banks:
+  - {fileID: 114320200000666980}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 227955
+--- !u!114 &114371242804117014
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -581,11 +406,7 @@ MonoBehaviour:
   Path: event:/AMBIANCE/amb_zombie
   guid: 855e7eb8b747f14496efc1337a0695d2
   Banks:
-<<<<<<< HEAD
-  - {fileID: 114816974961420726}
-=======
-  - {fileID: 114792275649137936}
->>>>>>> master
+  - {fileID: 114320200000666980}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -593,29 +414,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 235846
-<<<<<<< HEAD
---- !u!114 &114518762463720948
-=======
---- !u!114 &114601787314816798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: Assets\FMOD\zombie_town\Build\Desktop\Master Bank.strings.bank
-  lastModified: 636527428445154510
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 1976
-  Exists: 1
---- !u!114 &114615017544061942
->>>>>>> master
+--- !u!114 &114372783144573428
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -626,30 +425,150 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_car
-  guid: 137819d520efab4b80fb75b0d2dcd070
+  Path: event:/SFX/sfx_footsteps_zombie
+  guid: c09e339481500b4dad2efe37cc921432
   Banks:
-  - {fileID: 114816974961420726}
-=======
-  Path: event:/SFX/sfx_idle_human
-  guid: 6d4ac3bde6fdf54d8dccf88cd52821ac
+  - {fileID: 114320200000666980}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &114424659065418236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/sfx_house_contamination
+  guid: aa70cea568d1254ca6b246ba6a025b86
   Banks:
-  - {fileID: 114792275649137936}
->>>>>>> master
+  - {fileID: 114320200000666980}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3272
+--- !u!114 &114546227561136118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/sfx_validation_ui
+  guid: f8d0e315d24fc940ae7a1387a0bd0e53
+  Banks:
+  - {fileID: 114320200000666980}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &114563467889054262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/sfx_zombie_response
+  guid: 2dc3739f5f351d409eeebaba032686bd
+  Banks:
+  - {fileID: 114320200000666980}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3504
+--- !u!114 &114612171685798984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/sfx_idle_zombie
+  guid: b2826418cc8df047a042a9fe565c1c30
+  Banks:
+  - {fileID: 114320200000666980}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-<<<<<<< HEAD
-  Length: 11045
---- !u!114 &114544764304013150
-=======
-  Length: 36601
---- !u!114 &114686023241929348
->>>>>>> master
+  Length: 27256
+--- !u!114 &114638820535527220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/sfx_deplacement_ui
+  guid: fef3f70855c52a42ae74f9bbee62aeb1
+  Banks:
+  - {fileID: 114320200000666980}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 681
+--- !u!114 &114639042679704206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/MUSIC/Level_mus
+  guid: 3d6b3f7450d30b43ab2cfd82b87fed4e
+  Banks:
+  - {fileID: 114320200000666980}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 230000
+--- !u!114 &114701702162110106
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -664,11 +583,7 @@ MonoBehaviour:
   Min: 0
   Max: 10
   Default: 0
-<<<<<<< HEAD
---- !u!114 &114613528183451156
-=======
---- !u!114 &114686339549964696
->>>>>>> master
+--- !u!114 &114824424318299650
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -679,30 +594,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_deplacement_ui
-  guid: fef3f70855c52a42ae74f9bbee62aeb1
-  Banks:
-  - {fileID: 114816974961420726}
-=======
   Path: event:/SFX/sfx_score_multiplicateur
   guid: eb3fe6aa6c2e4b408b587b9ba46f1dde
   Banks:
-  - {fileID: 114792275649137936}
->>>>>>> master
+  - {fileID: 114320200000666980}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-<<<<<<< HEAD
-  Length: 681
---- !u!114 &114614065525647016
-=======
   Length: 528
---- !u!114 &114694669716083202
->>>>>>> master
+--- !u!114 &114931214677279954
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -713,408 +616,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_ui_round_1
-  guid: 83fc558b4db25645b067e9ba38ec590d
+  Path: event:/SFX/sfx_footsteps_human
+  guid: 73d4036ee78f18468ebc482c459ab32d
   Banks:
-  - {fileID: 114816974961420726}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 3504
---- !u!114 &114638052213031816
-=======
-  Path: event:/SFX/sfx_scream_human
-  guid: af94fc4e0af8cf418530409141c10e33
-  Banks:
-  - {fileID: 114792275649137936}
+  - {fileID: 114320200000666980}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
---- !u!114 &114696527761096172
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_zombie_response
-  guid: 2dc3739f5f351d409eeebaba032686bd
-  Banks:
-  - {fileID: 114816974961420726}
-=======
-  Path: event:/SFX/sfx_door
-  guid: 9d769aa79c62fb48bc2a1c367a6071a1
-  Banks:
-  - {fileID: 114792275649137936}
->>>>>>> master
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-<<<<<<< HEAD
-  Length: 3504
---- !u!114 &114647016589882060
-=======
-  Length: 1090
---- !u!114 &114721522395030882
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/MUSIC/Level_1
-  guid: 312ec7ef76920c44a93ce324a9ecbeec
-  Banks:
-  - {fileID: 114816974961420726}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 227955
---- !u!114 &114658553692379666
-=======
-  Path: event:/SFX/sfx_zombie_response
-  guid: 2dc3739f5f351d409eeebaba032686bd
-  Banks:
-  - {fileID: 114792275649137936}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3504
---- !u!114 &114726552600690876
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_youwin
-  guid: 33167b7423c3254cb4f70cf6135a1ec8
-  Banks:
-  - {fileID: 114816974961420726}
-  IsStream: 0
-=======
-  Path: event:/AMBIANCE/amb_city_zombie
-  guid: d2d116f2cebb9a42902e027f61c6933a
-  Banks:
-  - {fileID: 114792275649137936}
-  IsStream: 1
->>>>>>> master
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 114686023241929348}
-  MinDistance: 0
-  MaxDistance: 0
-<<<<<<< HEAD
-  Length: 2336
---- !u!114 &114764834372273366
-=======
-  Length: 227846
---- !u!114 &114751298246562816
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_contamination
-  guid: a1c2184a1debc84590069d5115e8a579
-  Banks:
-  - {fileID: 114816974961420726}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2250
---- !u!114 &114816974961420726
-=======
-  Path: event:/SFX/sfx_zombie_call
-  guid: 47134a0359f20f4eb7938a6c33f3436f
-  Banks:
-  - {fileID: 114792275649137936}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3954
---- !u!114 &114764801916497124
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: C:\Users\Benjamin\Documents\Projet_isart\Jam\clone\ZombieTown\Assets\FMOD\zombie_town\Build\Desktop\Master
-    Bank.bank
-  lastModified: 636527441595053153
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 15244544
-  Exists: 1
---- !u!114 &114825661144051968
-=======
-  Path: event:/MUSIC/Level_2
-  guid: a0f7c8fb7c9c4c4d9823ecc8cf6df533
-  Banks:
-  - {fileID: 114792275649137936}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 226500
---- !u!114 &114770335199955950
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_idle_human
-  guid: 6d4ac3bde6fdf54d8dccf88cd52821ac
-  Banks:
-  - {fileID: 114816974961420726}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 36601
---- !u!114 &114831259918680314
-=======
-  Path: event:/MUSIC/Level_mus
-  guid: 3d6b3f7450d30b43ab2cfd82b87fed4e
-  Banks:
-  - {fileID: 114792275649137936}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 230000
---- !u!114 &114781357739583934
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_house_contamination
-  guid: aa70cea568d1254ca6b246ba6a025b86
-  Banks:
-  - {fileID: 114816974961420726}
-=======
-  Path: event:/SFX/sfx_youwin
-  guid: 33167b7423c3254cb4f70cf6135a1ec8
-  Banks:
-  - {fileID: 114792275649137936}
->>>>>>> master
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-<<<<<<< HEAD
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3272
---- !u!114 &114887447160067944
-=======
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2336
---- !u!114 &114792275649137936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: D:\ZombieTown\ZombieTown\Assets\FMOD\zombie_town\Build\Desktop\Master Bank.bank
-  lastModified: 636527428446161105
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 15244544
-  Exists: 1
---- !u!114 &114822861918057656
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/MUSIC/Level_2
-  guid: a0f7c8fb7c9c4c4d9823ecc8cf6df533
-  Banks:
-  - {fileID: 114816974961420726}
-  IsStream: 1
-=======
-  Path: event:/SFX/sfx_contamination
-  guid: a1c2184a1debc84590069d5115e8a579
-  Banks:
-  - {fileID: 114792275649137936}
-  IsStream: 0
->>>>>>> master
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-<<<<<<< HEAD
-  Length: 226500
---- !u!114 &114918935260264680
-=======
-  Length: 2250
---- !u!114 &114963336975762200
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/AMBIANCE/amb_city_zombie
-  guid: d2d116f2cebb9a42902e027f61c6933a
-  Banks:
-  - {fileID: 114816974961420726}
-  IsStream: 1
-=======
-  Path: event:/SFX/sfx_deplacement_ui
-  guid: fef3f70855c52a42ae74f9bbee62aeb1
-  Banks:
-  - {fileID: 114792275649137936}
-  IsStream: 0
->>>>>>> master
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 114544764304013150}
-  MinDistance: 0
-  MaxDistance: 0
-<<<<<<< HEAD
-  Length: 227846
---- !u!114 &114995933056741026
-=======
-  Length: 681
---- !u!114 &114966651768942808
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Path: event:/SFX/sfx_cool_down
-  guid: 776e1308e3774944927ba05978a7aa4f
-  Banks:
-  - {fileID: 114816974961420726}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 750
-=======
-  Path: event:/MUSIC/Jingle_loose
-  guid: df7a945114076d4998106d28c51bfb87
-  Banks:
-  - {fileID: 114792275649137936}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 8727
---- !u!114 &114983419319695316
+  Length: 2500
+--- !u!114 &114944550410864924
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -1128,7 +641,7 @@ MonoBehaviour:
   Path: event:/SFX/sfx_car
   guid: 137819d520efab4b80fb75b0d2dcd070
   Banks:
-  - {fileID: 114792275649137936}
+  - {fileID: 114320200000666980}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -1136,4 +649,47 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 11045
->>>>>>> master
+--- !u!114 &114973283386535332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/sfx_youloose
+  guid: 04ab95cd07ed014eb662c473febbc0e5
+  Banks:
+  - {fileID: 114320200000666980}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7008
+--- !u!114 &114996474479046932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/sfx_door
+  guid: 9d769aa79c62fb48bc2a1c367a6071a1
+  Banks:
+  - {fileID: 114320200000666980}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1090
