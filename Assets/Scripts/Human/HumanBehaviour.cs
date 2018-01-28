@@ -10,12 +10,16 @@ public class HumanBehaviour : MonoBehaviour {
 
     protected bool isWalking;
 
-	// Use this for initialization
-	void Start () {
+    private FMOD.Studio.EventInstance idleSFX;
+
+    // Use this for initialization
+    void Start () {
         Color c = GetComponent<SkinnedMeshRenderer>().material.color;
         c.r = 0;
 
         GetComponent<SkinnedMeshRenderer>().material.color = c;
+
+        idleSFX = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/sfx_idle_human");
     }
 
     virtual public void InUpdate()
@@ -43,6 +47,11 @@ public class HumanBehaviour : MonoBehaviour {
             }
         }
 
+        if (!isWalking)
+            idleSFX.start();
+        else
+            idleSFX.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+
         GetComponentInParent<Animator>().SetBool("isWalking", isWalking);
     }
 
@@ -65,14 +74,20 @@ public class HumanBehaviour : MonoBehaviour {
         //gameObject.GetComponentInParent<Animator>().avatar = GameManager.config.ZombieSkeleton;
         gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh = (Mesh) GameManager.config.ZombieMesh;
 
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/sfx_contamination");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/sfx_contamination_ui");
+
         //destroying sight
         foreach (CapsuleCollider sp in gameObject.GetComponents<CapsuleCollider>())
         {
+            print(sp.isTrigger);
             if (sp.isTrigger)
                 DestroyObject(sp);
         }
-
-        Destroy(gameObject.GetComponent<HumanBehaviour>());
+        if (GetComponent<HumanPussy>())
+            Destroy(gameObject.GetComponent<HumanPussy>());
+        else
+            Destroy(gameObject.GetComponent<HumanRedneck>());
     }
 
 }

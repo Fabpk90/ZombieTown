@@ -43,3 +43,6 @@ Assets/FMOD/zombie_town/Plugins\.meta
 Assets/FMOD/zombie_town/Metadata\.meta
 
 Assets/FMODStudioCache\.asset
+
+Assets/FMOD/zombie_town/\.cache/
+

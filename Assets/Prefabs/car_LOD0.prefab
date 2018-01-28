@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33027260626672264}
   - component: {fileID: 23967131351781654}
   - component: {fileID: 208089817850890330}
+  - component: {fileID: 114649743170157752}
   m_Layer: 0
   m_Name: car_LOD0
   m_TagString: Untagged
@@ -83,6 +84,28 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1038808142903066}
   m_Mesh: {fileID: 4300000, guid: 9b31c8e525f3b1a4fb2c2a710ebf54e2, type: 3}
+--- !u!114 &114649743170157752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1038808142903066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/SFX/sfx_contamination
+  PlayEvent: 1
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!208 &208089817850890330
 NavMeshObstacle:
   m_ObjectHideFlags: 1

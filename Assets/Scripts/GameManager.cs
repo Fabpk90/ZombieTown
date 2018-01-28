@@ -61,6 +61,8 @@ public class GameManager : MonoBehaviour {
 
         public GameObject biteHUD;
         public GameObject Camera;
+        public GameObject ScoreUI;
+        public GameObject TimerUI;
 
         public Avatar ZombieSkeleton;
         public Mesh ZombieMesh;
@@ -88,9 +90,30 @@ public class GameManager : MonoBehaviour {
         config = configEditor;
     }
 
+    [FMODUnity.EventRef]
+    public string rolling = "event:/AMBIANCE/amb_city_zombie";       //Create the eventref and define the event path
+    FMOD.Studio.EventInstance scoreEv;                //rolling event
+    FMOD.Studio.ParameterInstance ScoreParam;    //speed param object
+
+    FMOD.Studio.EventInstance musicLevel;
+    FMOD.Studio.EventInstance musicbgm;
+
+    private bool isMin = false;
+
     // Use this for initialization
     void Start ()
     {
+        scoreEv = FMODUnity.RuntimeManager.CreateInstance(rolling);
+        scoreEv.getParameter("score", out ScoreParam);
+        scoreEv.start();
+
+        musicLevel = FMODUnity.RuntimeManager.CreateInstance("event:/MUSIC/Level_mus");
+
+       musicbgm = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/sfx_ui_round_1");
+
+        musicLevel.start();
+        musicbgm.start();
+
         if (player != null)
             zombiePossesed.Add(player.GetComponentInChildren<Zombie>());
 	}
@@ -98,6 +121,21 @@ public class GameManager : MonoBehaviour {
     private void Update()
     {
         timeElapsed += Time.deltaTime;
+
+        config.ScoreUI.GetComponent<TextMeshProUGUI>().text = "Score: " + Score;
+
+        if(isMin)
+            config.TimerUI.GetComponent<TextMeshProUGUI>().text = "" + ((int)timeElapsed) / 60 + ":" + ((int)timeElapsed) % 60;
+        else
+        {
+            config.TimerUI.GetComponent<TextMeshProUGUI>().text = ""+((int)timeElapsed) % 60;
+            if (timeElapsed / 60f >= 1)
+            {
+                isMin = true;
+            }
+        }
+
+        ScoreParam.setValue(Score / 100f);
 
         //time out
         if (timeElapsed >= config.timeGame && !isDead)

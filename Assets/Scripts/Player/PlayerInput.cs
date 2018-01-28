@@ -39,10 +39,16 @@ public class PlayerInput : MonoBehaviour {
         {
             Contaminate();
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
 	}
 
     private void Yell()
     {
+
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/sfx_house_contamination");
+
         lastTimeYell = Time.time;
 
         RaycastHit[] hits = Physics.SphereCastAll(transform.position, GameManager.config.rangeYell, transform.position);
