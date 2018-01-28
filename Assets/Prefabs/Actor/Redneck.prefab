@@ -989,9 +989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rondeObj:
-    ronde:
-    - {fileID: 0}
-    - {fileID: 0}
+    ronde: []
     indexRonde: 0
     timeSinceLastRonde: 0
 --- !u!136 &136240223150917506

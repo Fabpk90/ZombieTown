@@ -62,7 +62,7 @@ public class PlayerInput : MonoBehaviour {
         }
     }
 
-    private void FindNearestZombie()
+    public void FindNearestZombie()
     {
         lastTimePossesed = Time.time;
 
