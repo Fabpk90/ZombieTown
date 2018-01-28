@@ -41,6 +41,11 @@ public class GameManager : MonoBehaviour {
         public float cooldownRonde;
 
         [Range(1, 20)]
+        public float cooldownRondeRedNeckStreet;
+        [Range(1, 20)]
+        public float cooldownRondeRedNeckHouse;
+
+        [Range(1, 20)]
         public float cooldownRunningAway;
         [Range(1, 20)]
         public float rangeYell;
@@ -105,6 +110,21 @@ public class GameManager : MonoBehaviour {
     static public void AddZombie(Zombie zombie)
     {
         zombiePossesed.Add(zombie);
+    }
+
+    static public bool RemoveZombie(Zombie zombie)
+    {
+        bool ok = false;
+        ok = zombiePossesed.Remove(zombie);
+
+        if (zombiePossesed.Count == 0)
+        {
+            isDead = true;
+            SceneManager.LoadScene("DeathScene");
+        }
+            
+
+        return ok;
     }
 
     static public void ActivateBiteHUD()

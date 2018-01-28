@@ -7,6 +7,8 @@ using UnityEngine.AI;
 public class Zombie : MonoBehaviour {
     public Ronde rondeObj;
 
+    private bool isWalking;
+
     // Use this for initialization
     void Start () {
         if (transform.tag != "Player")
@@ -17,12 +19,16 @@ public class Zombie : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        isWalking = true;
+
         if (!transform.parent.GetComponent<NavMeshAgent>().pathPending) //used for knowing if it has arrived at his destination
         {
             if (transform.parent.GetComponent<NavMeshAgent>().remainingDistance <= transform.parent.GetComponent<NavMeshAgent>().stoppingDistance)
             {
                 if (!transform.parent.GetComponent<NavMeshAgent>().hasPath || transform.parent.GetComponent<NavMeshAgent>().velocity.sqrMagnitude == 0f)
                 {
+                    isWalking = false;
                     rondeObj.timeSinceLastRonde += Time.deltaTime;
 
                     if (rondeObj.timeSinceLastRonde >= GameManager.config.cooldownRonde)
@@ -35,6 +41,7 @@ public class Zombie : MonoBehaviour {
                 }
             }
         }
+        GetComponentInParent<Animator>().SetBool("isWalking", isWalking);
 
     }
 
