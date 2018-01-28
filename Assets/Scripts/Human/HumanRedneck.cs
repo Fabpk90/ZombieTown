@@ -16,7 +16,7 @@ namespace Assets.Scripts.Human
         private void OnTriggerEnter(Collider other)
         {
             //print(other.gameObject.GetComponent<Zombie>());
-            if (!other.isTrigger && other.gameObject.GetComponent<Zombie>() && lastShoot + GameManager.config.cooldownShot <= Time.tim)
+            if (!other.isTrigger && other.gameObject.GetComponent<Zombie>() && lastShoot + GameManager.config.cooldownShot <= Time.time)
             {
                 lastShoot = Time.time;
 
