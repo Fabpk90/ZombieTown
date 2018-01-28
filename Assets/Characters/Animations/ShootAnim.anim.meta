@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Characters/Animations/ShootAnim.anim.meta
+guid: e3cd1a58629ba204e88126a5542f5153
+timeCreated: 1517140809
+=======
+guid: 5829054c9b29b78469a32f443b6ba211
+timeCreated: 1517144739
+>>>>>>> master:Assets/StreamingAssets/Master Bank.strings.bank.meta
+licenseType: Free
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
