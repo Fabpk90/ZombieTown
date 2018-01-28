@@ -9,18 +9,23 @@ public class Zombie : MonoBehaviour {
 
     private bool isWalking;
 
+    private FMOD.Studio.EventInstance idleSFX;
+
     // Use this for initialization
     void Start () {
         if (transform.tag != "Player")
             GameManager.AddZombie(this);
         else
             TakePossesion();
-	}
+
+        idleSFX = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/sfx_idle_zombie");
+    }
 	
 	// Update is called once per frame
 	void Update () {
 
         isWalking = true;
+        
 
         if (!transform.parent.GetComponent<NavMeshAgent>().pathPending) //used for knowing if it has arrived at his destination
         {
@@ -41,6 +46,12 @@ public class Zombie : MonoBehaviour {
                 }
             }
         }
+
+        if (!isWalking)
+            idleSFX.start();
+        else
+            idleSFX.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+
         GetComponentInParent<Animator>().SetBool("isWalking", isWalking);
 
     }

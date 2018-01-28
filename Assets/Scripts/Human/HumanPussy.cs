@@ -36,6 +36,8 @@ namespace Assets.Scripts.Human
             {
                 if (other.gameObject.GetComponent<Zombie>())
                 {
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/sfx_scream_human");
+
                     timeLastEscape = Time.time;
                     zombieToEscapeFrom = other.GetComponent<Zombie>();
                 }
