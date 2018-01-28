@@ -992,6 +992,7 @@ MonoBehaviour:
     ronde: []
     indexRonde: 0
     timeSinceLastRonde: 0
+  isHouseGarding: 0
 --- !u!136 &136240223150917506
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -1032,7 +1033,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 3cda56afb9a3f6e40b50bb6ad800f350, type: 3}
+  - {fileID: 2100000, guid: 8f5e532ea29809349ba0b78763418f06, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
