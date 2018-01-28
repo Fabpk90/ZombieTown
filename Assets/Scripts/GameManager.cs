@@ -98,6 +98,8 @@ public class GameManager : MonoBehaviour {
     FMOD.Studio.EventInstance musicLevel;
     FMOD.Studio.EventInstance musicbgm;
 
+    private bool isMin = false;
+
     // Use this for initialization
     void Start ()
     {
@@ -121,7 +123,17 @@ public class GameManager : MonoBehaviour {
         timeElapsed += Time.deltaTime;
 
         config.ScoreUI.GetComponent<TextMeshProUGUI>().text = "Score: " + Score;
-        config.TimerUI.GetComponent<TextMeshProUGUI>().text = "" + ((int)timeElapsed) / 60 + ":" + ((int)timeElapsed) % 60;
+
+        if(isMin)
+            config.TimerUI.GetComponent<TextMeshProUGUI>().text = "" + ((int)timeElapsed) / 60 + ":" + ((int)timeElapsed) % 60;
+        else
+        {
+            config.TimerUI.GetComponent<TextMeshProUGUI>().text = ""+((int)timeElapsed) % 60;
+            if (timeElapsed / 60f >= 1)
+            {
+                isMin = true;
+            }
+        }
 
         ScoreParam.setValue(Score / 100f);
 
