@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
 
+    public int aBtnPressed;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -12,8 +14,9 @@ public class LevelManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+		if(Input.GetButtonDown("Submit"))
+            SceneManager.LoadScene(aBtnPressed);
+    }
 
     public void LoadLevel(int level)
     {
