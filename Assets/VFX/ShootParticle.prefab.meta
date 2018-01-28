@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/StreamingAssets/Master Bank.strings.bank.meta
+guid: 5829054c9b29b78469a32f443b6ba211
+timeCreated: 1517144321
+=======
 guid: b6fd4eaf352184849bda94529baa3e90
 timeCreated: 1517140995
+>>>>>>> master:Assets/VFX/ShootParticle.prefab.meta
 licenseType: Free
 NativeFormatImporter:
   externalObjects: {}
