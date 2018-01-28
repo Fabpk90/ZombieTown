@@ -5700,6 +5700,16 @@ Prefab:
       propertyPath: configEditor.cooldownRondeRedNeckHouse
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114156654020471160, guid: 16d66599eb8dd904cac9716b1c2bb91c,
+        type: 2}
+      propertyPath: configEditor.ZombieMesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 46f770e037b83ab44b5faeccee8b34f5, type: 3}
+    - target: {fileID: 114156654020471160, guid: 16d66599eb8dd904cac9716b1c2bb91c,
+        type: 2}
+      propertyPath: configEditor.ZombieSkeleton
+      value: 
+      objectReference: {fileID: 9000000, guid: 46f770e037b83ab44b5faeccee8b34f5, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16d66599eb8dd904cac9716b1c2bb91c, type: 2}
   m_IsPrefabParent: 0
@@ -6473,6 +6483,10 @@ Prefab:
       propertyPath: rondeObj.ronde.Array.data[1]
       value: 
       objectReference: {fileID: 687678426}
+    - target: {fileID: 1101761704581396, guid: 6d0cb7d9350375c4fab2a630058155bf, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6d0cb7d9350375c4fab2a630058155bf, type: 2}
   m_IsPrefabParent: 0
