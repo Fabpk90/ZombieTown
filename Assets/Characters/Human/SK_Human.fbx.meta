@@ -70,6 +70,7 @@ ModelImporter:
     400060: HumanMesh
     400062: //RootNode
     2100000: M_Human_Base
+    2100002: M_Human
     4300000: HumanMesh
     9500000: //RootNode
     13700000: HumanMesh
