@@ -52,6 +52,9 @@ public class GameManager : MonoBehaviour {
         [Range(1, 20)]
         public float rangeBite;
 
+        [Range(1, 20)]
+        public float cooldownShot;
+
         public int scoreContaHuman;
         public int scoreContaHumanArme;
 
