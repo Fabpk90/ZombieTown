@@ -66,13 +66,7 @@ public class Zombie : MonoBehaviour {
         gameObject.AddComponent<SphereCollider>().radius = GameManager.config.rangeBite;
         GetComponent<SphereCollider>().isTrigger = true;
 
-       // GetComponent<PlayerInput>().SearchForHumanInRange();
-
-        Color c = GetComponent<SkinnedMeshRenderer>().material.color;
-        c.g = 0;
-        c.b = 0;
-
-        GetComponent<SkinnedMeshRenderer>().material.color = c;
+       // GetComponent<PlayerInput>().SearchForHumanInRange
     }
 
     public void LeavePossesion()
@@ -80,12 +74,11 @@ public class Zombie : MonoBehaviour {
         GetComponent<PlayerInput>().enabled = false;
         GetComponent<PlayerInput>().humanInRangeBite = new List<HumanBehaviour>();
 
-        DestroyObject(gameObject.GetComponent<SphereCollider>());
+        foreach(SphereCollider sp in GetComponents<SphereCollider>())
+        {
+            if(sp.isTrigger)
+                DestroyObject(sp);
+        }
 
-        Color c = GetComponent<SkinnedMeshRenderer>().material.color;
-        c.g = 1;
-        c.b = 1;
-
-        GetComponent<SkinnedMeshRenderer>().material.color = c;
     }
 }

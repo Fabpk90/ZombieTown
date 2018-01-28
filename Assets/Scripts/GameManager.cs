@@ -111,8 +111,8 @@ public class GameManager : MonoBehaviour {
 
        musicbgm = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/sfx_ui_round_1");
 
-        musicLevel.start();
-        musicbgm.start();
+        //musicLevel.start();
+        //musicbgm.start();
 
         if (player != null)
             zombiePossesed.Add(player.GetComponentInChildren<Zombie>());
