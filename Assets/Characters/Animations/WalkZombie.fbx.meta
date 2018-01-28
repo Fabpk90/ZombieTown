@@ -66,6 +66,7 @@ ModelImporter:
     400056: Setup_003_Human:Human_Spine1
     400058: //RootNode
     7400000: WalkZombie
+    7400002: Take 001
     9500000: //RootNode
   externalObjects: {}
   materials:

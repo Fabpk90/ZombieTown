@@ -62,6 +62,7 @@ public class GameManager : MonoBehaviour {
         public GameObject biteHUD;
         public GameObject Camera;
         public GameObject ScoreUI;
+        public GameObject TimerUI;
 
         public Avatar ZombieSkeleton;
         public Mesh ZombieMesh;
@@ -95,6 +96,8 @@ public class GameManager : MonoBehaviour {
     FMOD.Studio.ParameterInstance ScoreParam;    //speed param object
 
     FMOD.Studio.EventInstance musicLevel;
+    FMOD.Studio.EventInstance musicbgm;
+
     // Use this for initialization
     void Start ()
     {
@@ -104,7 +107,10 @@ public class GameManager : MonoBehaviour {
 
         musicLevel = FMODUnity.RuntimeManager.CreateInstance("event:/MUSIC/Level_mus");
 
-        FMODUnity.RuntimeManager.CreateInstance("event:/SFX/sfx_ui_round_1");
+       musicbgm = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/sfx_ui_round_1");
+
+        musicLevel.start();
+        musicbgm.start();
 
         if (player != null)
             zombiePossesed.Add(player.GetComponentInChildren<Zombie>());
@@ -115,6 +121,7 @@ public class GameManager : MonoBehaviour {
         timeElapsed += Time.deltaTime;
 
         config.ScoreUI.GetComponent<TextMeshProUGUI>().text = "Score: " + Score;
+        config.TimerUI.GetComponent<TextMeshProUGUI>().text = "" + ((int)timeElapsed) / 60 + ":" + ((int)timeElapsed) % 60;
 
         ScoreParam.setValue(Score / 100f);
 
