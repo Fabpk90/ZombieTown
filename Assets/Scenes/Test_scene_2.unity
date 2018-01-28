@@ -413,7 +413,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1377570791862942, guid: 428c3a8f1252a6945878830450425ddf, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 428c3a8f1252a6945878830450425ddf, type: 2}
@@ -619,6 +619,11 @@ Transform:
   m_PrefabParentObject: {fileID: 4985017112897968, guid: 8a1eb312f3118c64ca6c9e06456c8bf2,
     type: 2}
   m_PrefabInternal: {fileID: 100587831}
+--- !u!1 &104727428 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1045442912219330, guid: 428c3a8f1252a6945878830450425ddf,
+    type: 2}
+  m_PrefabInternal: {fileID: 41051071}
 --- !u!1001 &110726566
 Prefab:
   m_ObjectHideFlags: 0
@@ -5710,6 +5715,11 @@ Prefab:
       propertyPath: configEditor.ZombieSkeleton
       value: 
       objectReference: {fileID: 9000000, guid: 46f770e037b83ab44b5faeccee8b34f5, type: 3}
+    - target: {fileID: 114156654020471160, guid: 16d66599eb8dd904cac9716b1c2bb91c,
+        type: 2}
+      propertyPath: configEditor.ScoreUI
+      value: 
+      objectReference: {fileID: 104727428}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16d66599eb8dd904cac9716b1c2bb91c, type: 2}
   m_IsPrefabParent: 0

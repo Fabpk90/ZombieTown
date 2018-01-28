@@ -61,6 +61,7 @@ public class GameManager : MonoBehaviour {
 
         public GameObject biteHUD;
         public GameObject Camera;
+        public GameObject ScoreUI;
 
         public Avatar ZombieSkeleton;
         public Mesh ZombieMesh;
@@ -88,9 +89,23 @@ public class GameManager : MonoBehaviour {
         config = configEditor;
     }
 
+    [FMODUnity.EventRef]
+    public string rolling = "event:/AMBIANCE/amb_city_zombie";       //Create the eventref and define the event path
+    FMOD.Studio.EventInstance scoreEv;                //rolling event
+    FMOD.Studio.ParameterInstance ScoreParam;    //speed param object
+
+    FMOD.Studio.EventInstance musicLevel;
     // Use this for initialization
     void Start ()
     {
+        scoreEv = FMODUnity.RuntimeManager.CreateInstance(rolling);
+        scoreEv.getParameter("score", out ScoreParam);
+        scoreEv.start();
+
+        musicLevel = FMODUnity.RuntimeManager.CreateInstance("event:/MUSIC/Level_mus");
+
+        FMODUnity.RuntimeManager.CreateInstance("event:/SFX/sfx_ui_round_1");
+
         if (player != null)
             zombiePossesed.Add(player.GetComponentInChildren<Zombie>());
 	}
@@ -98,6 +113,10 @@ public class GameManager : MonoBehaviour {
     private void Update()
     {
         timeElapsed += Time.deltaTime;
+
+        config.ScoreUI.GetComponent<TextMeshProUGUI>().text = "Score: " + Score;
+
+        ScoreParam.setValue(Score / 100f);
 
         //time out
         if (timeElapsed >= config.timeGame && !isDead)

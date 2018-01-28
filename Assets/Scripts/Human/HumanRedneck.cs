@@ -19,6 +19,8 @@ namespace Assets.Scripts.Human
                 transform.LookAt(other.transform);
                 GetComponentInParent<Animator>().SetBool("isShooting", true);
 
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/sfx_shot");
+
                 StartCoroutine(disableShoot(1.2f, GetComponentInParent<Animator>()));
                 if(other.gameObject.GetComponent<PlayerInput>())
                 {
