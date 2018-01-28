@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
+<<<<<<< HEAD
   - {fileID: 114979726032403730}
   - {fileID: 114046544039771124}
   EditorEvents:
@@ -47,6 +48,17 @@ MonoBehaviour:
   stringsBankWriteTime: 636526926940000000
   cacheVersion: 2
 --- !u!114 &114046544039771124
+=======
+  - {fileID: 114429916034632044}
+  - {fileID: 114043095911795852}
+  EditorEvents:
+  - {fileID: 114472847510526368}
+  MasterBankRef: {fileID: 114043095911795852}
+  StringsBankRef: {fileID: 114429916034632044}
+  stringsBankWriteTime: 636526731092947074
+  cacheVersion: 2
+--- !u!114 &114043095911795852
+>>>>>>> master
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -65,6 +77,7 @@ MonoBehaviour:
   - Name: Desktop
     Value: 15244544
   Exists: 1
+<<<<<<< HEAD
 --- !u!114 &114060447602127848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,6 +274,9 @@ MonoBehaviour:
   MaxDistance: 0
   Length: 7008
 --- !u!114 &114485050493549768
+=======
+--- !u!114 &114429916034632044
+>>>>>>> master
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -272,12 +288,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: Assets\FMOD\zombie_town\Build\Desktop\Master Bank.strings.bank
+<<<<<<< HEAD
   lastModified: 636526683824961029
+=======
+  lastModified: 636526731092947074
+>>>>>>> master
   LoadResult: 0
   FileSizes:
   - Name: Desktop
     Value: 730
   Exists: 1
+<<<<<<< HEAD
 --- !u!114 &114507667288707998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -581,6 +602,9 @@ MonoBehaviour:
   MaxDistance: 0
   Length: 227846
 --- !u!114 &114751528271483716
+=======
+--- !u!114 &114472847510526368
+>>>>>>> master
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -594,7 +618,11 @@ MonoBehaviour:
   Path: event:/SFX/sfx_zombie_call
   guid: 47134a0359f20f4eb7938a6c33f3436f
   Banks:
+<<<<<<< HEAD
   - {fileID: 114302276110503270}
+=======
+  - {fileID: 114043095911795852}
+>>>>>>> master
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -602,6 +630,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1850
+<<<<<<< HEAD
 --- !u!114 &114815011346864686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -752,3 +781,5 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1976
   Exists: 1
+=======
+>>>>>>> master
