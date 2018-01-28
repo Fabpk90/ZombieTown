@@ -47,7 +47,7 @@ public class PlayerInput : MonoBehaviour {
     private void Yell()
     {
 
-        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/sfx_house_contamination");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/sfx_zombie_call");
 
         lastTimeYell = Time.time;
 

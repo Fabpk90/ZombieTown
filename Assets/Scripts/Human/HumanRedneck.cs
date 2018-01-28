@@ -11,11 +11,15 @@ namespace Assets.Scripts.Human
     {
         public bool isHouseGarding;
 
+        private float lastShoot;
+
         private void OnTriggerEnter(Collider other)
         {
             //print(other.gameObject.GetComponent<Zombie>());
-            if (!other.isTrigger && other.gameObject.GetComponent<Zombie>())
+            if (!other.isTrigger && other.gameObject.GetComponent<Zombie>() && lastShoot + GameManager.config.cooldownShot <= Time.tim)
             {
+                lastShoot = Time.time;
+
                 transform.LookAt(other.transform);
                 GetComponentInParent<Animator>().SetBool("isShooting", true);
 
