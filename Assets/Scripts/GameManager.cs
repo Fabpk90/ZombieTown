@@ -61,6 +61,9 @@ public class GameManager : MonoBehaviour {
 
         public GameObject biteHUD;
         public GameObject Camera;
+
+        public Avatar ZombieSkeleton;
+        public Mesh ZombieMesh;
     }
 
     public static int Score;
@@ -72,7 +75,7 @@ public class GameManager : MonoBehaviour {
 
     public GameObject player;
 
-    public TextMeshProUGUI ScoreUI;
+    
 
     private float timeElapsed = 0f;
 
@@ -94,8 +97,6 @@ public class GameManager : MonoBehaviour {
 
     private void Update()
     {
-        ScoreUI.text = "Score: " + Score;
-
         timeElapsed += Time.deltaTime;
 
         //time out
@@ -136,4 +137,5 @@ public class GameManager : MonoBehaviour {
     {
         config.biteHUD.SetActive(false);
     }
+
 }

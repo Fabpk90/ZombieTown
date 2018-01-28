@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Assets.Scripts.Human;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -50,14 +51,26 @@ public class HumanBehaviour : MonoBehaviour {
         InUpdate();
     }
 
-    public void Contaminate()
+    virtual public void Contaminate()
     {
-        GameManager.Score += GameManager.config.scoreContaHuman * GameManager.config.scoreMulti;
+        GameManager.Score += GetComponent<HumanPussy>() != null ? GameManager.config.scoreContaHuman :
+            GameManager.config.scoreContaHumanArme
+            * GameManager.config.scoreMulti;
 
         gameObject.AddComponent<PlayerInput>().enabled = false;
 
         gameObject.AddComponent<Zombie>();
         gameObject.GetComponent<Zombie>().rondeObj = rondeObj;
+
+        //gameObject.GetComponentInParent<Animator>().avatar = GameManager.config.ZombieSkeleton;
+        gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh = (Mesh) GameManager.config.ZombieMesh;
+
+        //destroying sight
+        foreach (CapsuleCollider sp in gameObject.GetComponents<CapsuleCollider>())
+        {
+            if (sp.isTrigger)
+                DestroyObject(sp);
+        }
 
         Destroy(gameObject.GetComponent<HumanBehaviour>());
     }
