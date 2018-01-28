@@ -74,8 +74,8 @@ public class HumanBehaviour : MonoBehaviour {
         //gameObject.GetComponentInParent<Animator>().avatar = GameManager.config.ZombieSkeleton;
         gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh = (Mesh) GameManager.config.ZombieMesh;
 
-        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/sfx_contamination");
-        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/sfx_score_contamination_ui");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/sfx_contamination");  
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/sfx_score_contamination_ui");  
 
         //destroying sight
         foreach (CapsuleCollider sp in gameObject.GetComponents<CapsuleCollider>())
