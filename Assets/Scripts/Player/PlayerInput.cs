@@ -131,11 +131,12 @@ public class PlayerInput : MonoBehaviour {
                
             }
 
-            hToContaminate.Contaminate();
-            humanInRangeBite.Remove(hToContaminate);
-
-
-            if (humanInRangeBite.Count == 0)
+            if(hToContaminate)
+            {
+                hToContaminate.Contaminate();
+                humanInRangeBite.Remove(hToContaminate);
+            }
+           else
                 GameManager.DeactivateBiteHUD();
 
             
